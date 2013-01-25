@@ -1,0 +1,67 @@
+---
+layout: default
+title: "Einstieg: Elexis kennen lernen"
+---
+Eine aktuelle Demo-Version mit einigen Plug-In (nicht zu vielen, um Neueinsteiger nicht zu verwirren) findet man auf SourceForge via "Files":https://sourceforge.net/projects/elexis/files/latest/download. Sie kann heruntergeladen werden und ohne Probleme auf Linux, MacOSX und Windows installiert werden. 
+Optional wird zusätzlich eine Demo-Datenbank installiert, auf denen Sie ohne Risiko Ihre ersten Erfahrungen mit Elexis machen können.
+Hier erklären wir Ihnen kurz, wie Sie vorgehen müssen.
+
+Nachdem Sie die Datei heruntergeladen haben, können Sie sie mit einem Doppelclick öffnen. Falls dies aufgrund Ihrer Systemeinstellungen nicht läuft, öffnen Sie eine Kommandozeile, wechseln dort auf das Verzeichnis wo Sie den Installer heruntergeladen haben und geben dort
+@java -jar elexis-'Version-Datum'.jar@
+ein. (Ersetzen Sie bitte 'Version-Datum' durch die richtigen Werte wie '2.1.7.20121207'. Nun sollte folgender Bildschirm zur Auswahl der gewünschten Sprache kommen.
+
+!images/Install_01.png!
+
+Nach dem Drücken von "OK", kommen Sie zur Einführung weiter.
+
+!images/Install_02.png!
+
+Nach dem Durchlesen, drücken Sie bitte auf "Weiter" um zum folgenden Fenster zu gelangen.
+
+!images/Install_03.png!
+
+Falls Sie die Lizenzbedingungen durch das Aktivieren des "Ja" annehmen und auf "Weiter" drücken, erscheint folgendes Fenster.
+
+!images/Install_04.png!
+
+Wählen Sie den gewünschten Installationsort aus und drücken auf "Weiter". Es erscheint folgendes Fenster.
+
+!images/Install_05.png!
+
+Für diesen Test hier empfehlen wir die Auswahl "DemoDB" zu aktivieren und auf "Weiter" zu drücken.
+
+!images/Install_06.png!
+
+Nach dem Drücken von "Weiter", wird der Fortschritt der Installation angezeigt.
+
+!images/Install_07.png!
+
+Hier haben Sie die Möglichkeit Elexis ins Start-Menü aufzunehmen und/oder eine Verknüpfung auf dem Desktop zu erstellen.
+
+!images/Install_08.png!
+
+"Automatisches Installationsskript erzeugen" ist nur für Entwickler gedacht. Drücken Sie bitte einfach auf "Fertig" um Ihre Installation zu beenden.
+
+!images/Install_09.png!
+
+Benutzer von Windows können sich wahrscheinlich noch freuen, folgenden Hinweis zu quittieren.
+
+!images/Install_10.png!
+
+Falls Sie die DemoDB installiert haben, geben Sie gei der Aufforderung, einen Benutzernamen und ein Passwort einzugeben, beide Male "test" ein.
+
+!images/Install_11.png!
+
+Elexis öffnet, sich und zeigt einige Fenster an, nicht jedoch die Daten zu einem bestimmten Patienten.
+
+!images/Install_12.png!
+
+Um einen Patienten auszuwählen, klicken Sie auf den Reiter "Patienten".
+
+!images/Install_13.png!
+
+Um die Liste aller Patienten auszuwählen, klicken Sie einfach auf "Name".
+
+!images/Install_14.png!
+
+Nun können Sie auf eigene Faust Elexis erkundigen, oder sich das "Handbuch":http://sourceforge.net/projects/elexis/files/Handbooks/2.1.7.0/Handbuch/elexis.pdf/download (teilweise noch auf der Version 1.4 basierend) zu Gemüte führen.

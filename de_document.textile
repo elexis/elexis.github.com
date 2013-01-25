@@ -1,0 +1,56 @@
+---
+layout: default
+title: Dokumentation
+---
+
+h2. Zustand bis Version 2.1.7.0
+
+Die Dokumentation wurde in jedem Plug-In verwaltet. Dazu wurden diverse Formate benutzt: "textile":http://redcloth.org/textile, "LaTeX":http://de.wikipedia.org/wiki/LaTeX, "doc":http://de.wikipedia.org/wiki/Microsoft_Word oder "OpenDocument":http://de.wikipedia.org/wiki/OpenDocument
+
+Dieser Wildwuchs ist Grund (oder Folge?) der Tatsache, dass immer weniger Anwender sich um die Dokumentation kümmern.
+
+h2. Vorschlag für neues Vorgehen
+
+Niklaus Giger schlägt vor, zu versuchen bis Ende 2013 die Dokumentation von Elexis aufzuarbeiten.
+
+Im Vordergrund sieht er folgende Ziele:
+* Anpassungen an die aktuelle Version (viele stammt noch aus Elexis 1.4)
+* Vereinheitlichung
+* Dokumentation fehlender Plug-in
+* Neue Kapitel/Anleitung für folgende Punkte
+  Einiges davon ist nicht nur Dokumentation, sondern muss noch erarbeitet werden
+** Aufsetzen einer Elexis-Installation
+** Best practices für Installation von Elexis im Netzwerk
+** Aktualisierung Stammdaten (welche Alternativen gibt es, gewichtet)
+** Vor/Nachteile der verschiedenen KGs (Gerry, Hilotec, KG-Iatrix)
+** Vor/Nachteile der verschiedenen Textanbindungen (Noatext, OpenDocument, Text-Templator, MsWord)
+
+h3. Wahl des Dateiformats
+
+Unbestreitbar ist LaTex ein sehr gutes, portables Format um Bücher in einer hohen typographischen Qualität zu erstellen. Leider bringt das auch eine Komplexität mit sich, welche Leute, dir nur einige kleine, aber wichtige Korrekturen vornehmen wollen, abschreckt.
+
+Bei den Entwicklern ist deshalb Textile, eine einfache Markup-Sprach beliebt, welche leicht erlernt werden kann.
+
+Niklaus hat deshalb Scripts erstellt, welche bestehended Textile und LaTex-Dateien in einem neuen Wiki zusammenfasst, damit alle Anwender (oder bei Bedarf auch nur dazu berechtigte) mit wenig Aufwand die Dokumentation laufend anpassen können.
+
+Eine Testinstallation finden sie unter "github.com/ngiger/test/wiki":https://github.com/ngiger/test/wiki.
+
+h3. Offene Fragen:
+
+* Dokumentation für proprietäre Plug-Ins (z.B. von Medelexis mitnehmen)
+* Wo/welche Datenablage
+** Dieser Vorschlag versucht github und die dort existierenden Tools (v.a. textile) möglichst gut zu nutzen
+** Wenn jemand einen Server spendiert, wären auch andere CMS, z.B. mediawiki willkommen
+** Nicht vergessen möchte ich, dass mehrere Sprachen (fr/it) und/oder ander Länder wie Oesterreich von der Dokumentation profitieren können. Ideen dazu sind
+*** Separate repositories pro Sprache/Gebiet
+*** Fallback bei der Suche auf die Hauptsprache/Gebiet (im Moment die Deutschschweiz)
+* Wie Handbuch/Wiki in Elexis als Hilfe integrieren (z.B. Iatrix-Hilfe)
+** Auch hier Anforderungen für Mehrsprachigkeit, andere Länder berücksichtigen
+
+h3. Probleme bei der Konvertierung der Handbücher:
+
+* Inhaltsverzeichnis wurde nicht migriert (von Hand via {toc}) erzeugt
+* Kein Abbildungsverzeichnis
+* Resultierende doc_de.texile Datei kann wegen eines Bugs nicht direkt via @pandoc -s doc_de.textile -o doc_de.pdf@ ins PDF umgewandelt werden. Es braucht einen manuellen Zwischenschritt via tex.
+* Seitenlayout braucht häufig Anpassungen, z.B. "alte Seite 18":images/elexis_s_18_original.pdf neu nach automatischer Konvertierung "neue Seite 4":images/elexis_s_4_pandoc.pdf
+

@@ -1,0 +1,60 @@
+#!/usr/bin/ruby
+# License Eclipse Public License 
+# You may obtain a copy of the License at
+#
+#    http://www.eclipse.org/legal/epl-v10.html
+#
+# rakefile was inspired by the buildr.apache.org
+require 'jekyll'
+require 'jekylltask'
+
+begin
+	module TocFilter
+  def toc(input)
+    output = "<ol class=\"toc\">"
+    input.scan(/<(h2)(?:>|\s+(.*?)>)([^<]*)<\/\1\s*>/mi).each do |entry|
+      id = (entry[1][/^id=(['"])(.*)\1$/, 2] rescue nil)
+      title = entry[2].gsub(/<(\w*).*?>(.*?)<\/\1\s*>/m, '\2').strip
+      if id
+        output << %{<li><a href="##{id}">#{title}</a></li>}
+      else
+        output << %{<li>#{title}</li>}
+      end
+    end
+    output << '</ol>'
+    output
+	end
+end
+Liquid::Template.register_filter(TocFilter)
+
+desc 'Generate Elexis documentation in _site/'
+JekyllTask.new 'jekyll' do |task|
+  task.source = '.'
+  task.target = '_site'
+end
+
+JekyllTask.new 'jekyll' do |task|
+  task.source =  '.'
+  task.target = '_site'
+end if false
+
+desc 'Build a copy of the Web site in the ./_site'
+task 'site' => ['_site'] do
+#  cp 'CHANGELOG', '_site'
+  open('_site/.htaccess', 'w') do |htaccess|
+    htaccess << %Q{
+<FilesMatch "CHANGELOG">
+ForceType 'text/plain; charset=UTF-8'
+</FilesMatch>
+}
+  end
+  puts 'OK'
+end
+
+task 'clobber' do
+  rm_rf '_site'
+end
+
+rescue Exception => e
+  puts "Exception in #{__FILE__}: #{e}"
+end
