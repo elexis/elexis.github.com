@@ -6,6 +6,8 @@ Eine aktuelle Demo-Version mit einigen Plug-In (nicht zu vielen, um Neueinsteige
 Optional wird zusätzlich eine Demo-Datenbank installiert, auf denen Sie ohne Risiko Ihre ersten Erfahrungen mit Elexis machen können.
 Hier erklären wir Ihnen kurz, wie Sie vorgehen müssen.
 
+Sie müssen Java installiert haben. Downloads finden Sie unter "OpenJDK":http://openjdk.java.net/install/index.html oder von "Sun":http://www.java.com/de/download/. Unter Windows wird nur die 32-Bit-Version unterstützt, d.h. auch auf einem Windows 64-Bit müssen Sie die 32-Bit-Version von Java installiert haben, um Elexis ohne Probleme benützen zu können.
+
 Nachdem Sie die Datei heruntergeladen haben, können Sie sie mit einem Doppelclick öffnen. Falls dies aufgrund Ihrer Systemeinstellungen nicht läuft, öffnen Sie eine Kommandozeile, wechseln dort auf das Verzeichnis wo Sie den Installer heruntergeladen haben und geben dort
 @java -jar elexis-'Version-Datum'.jar@
 ein. (Ersetzen Sie bitte 'Version-Datum' durch die richtigen Werte wie '2.1.7.20121207'. Nun sollte folgender Bildschirm zur Auswahl der gewünschten Sprache kommen.
