@@ -18,19 +18,21 @@ Opening his own medical practice was not enough challenge for him. Therefore he 
 *Urs Berner*
 (aka bernerur) early adopter, parts of the german handbook
 *Harald Marlovits*
-marloitsh | coder of simple and cool UI feature real users really cannot miss|
+marlovits, coder of simple and cool UI feature real users really cannot miss
 *Tony Schaller*
-tschaller | analyst, documentation, proponent of Elexis in various eHealth organizations|
+tschaller, analyst, documentation, proponent of Elexis in various eHealth organizations
+*Peter Siska and Dennis Schenk*
+contributed Archie and improved greatly the look&feel of the 1.4 release.
 *Michael Imhof*
-immi | coder, various plugins|
-*Bruno Büchel*bbuechel6 french translation of the handbook|
-*Antoine Kaufmann* freakypenguin | coder, alternative KG view, opendocument|
-*Niklaus Giger* niklausgiger | release management, build environment, GUI-tests|
-*Marco Descher* "marcode79":https://sourceforge.net/users/marcode79 | bug fixing, new plugins, redesigner of the elexis core|
-*Thomas Huster*  thomashu | bug fixing, new plugins, redesigner of the elexis core|
-*Jörg Sigle* jsigle | coder, bug fixer, noatext_jsl|
-*Oliver Egger* eggeroliver | coder (docbox)|
-*Franz Marty* sponsored various plugins and projects (e.g. HL7 integration)|
+immi, coder, various plugins
+*Bruno Büchel* bbuechel6 french translation of the handbook
+*Antoine Kaufmann* freakypenguin, coder, alternative KG view, opendocument
+*Niklaus Giger* niklausgiger, release management, build environment, GUI-tests
+*Marco Descher* "marcode79":https://sourceforge.net/users/marcode79 bug fixing, new plugins, redesigner of the elexis core
+*Thomas Huster*  thomashu, bug fixing, new plugins, redesigner of the elexis core
+*Jörg Sigle* jsigle, coder, bug fixer, noatext_jsl
+*Oliver Egger* eggeroliver, coder (docbox)
+*Franz Marty* sponsored various plugins and projects (e.g. HL7 integration)
 
 Plugins for which I dont know personally the authors
 
@@ -41,11 +43,9 @@ User unkown to me, but part of the developer list at sf.net
 
 * apw
 * René Zweifel
-* Peter Siska
 * Toni Schranz
 * St. Schenk
 * Dominik Bünzli
-* Dennis Schenk
 
 Gemäss "Iatrix:Sponsoren":http://www.iatrix.org/pmwiki.php?n=Elexis.Sponsoren
 
