@@ -15,14 +15,14 @@ Einige Ärzte und die "Argomed":http://www.argomed.ch/ gründeten 2009 die "Mede
 Elexis ist in Java geschrieben dh läuft grundsätzlich auf allen Plattformen, auch auf dem kostenlosen Linux. Es macht aktuell am ehesten Sinn, den Server mit Linux, die Clients mit Windows, MacOSX oder Linux zu betreiben.
 Open/LibreOffice kann in Elexis integriert werden.
 
-Eine Anleitung zur Installation einer voll funktionsfähigen Demo-Version von Elexis finden Sie unter "Elexis kennenlernen":de_quick_start.html.html.
+Eine Anleitung zur Installation einer voll funktionsfähigen Demo-Version von Elexis finden Sie unter "Elexis kennenlernen":de_quick_start.html
 
 h2(#why).  Das Erfolgsrezept von Elexis
 
 * Entworfen von einem Arzt.
 * Weiterentwickelt von Ärzten und Programmieren
 * Ein Netzwerk von Anwendern, welche Kritik, Ideen, Geld und Dokumentation beigesteuert haben und Neueinsteiger unterstützen
-* Firmen, welche professionellen "Support":de_support.hml für Installation, Beratung, Wartung, praxis-spezifische Anpassung und Weiterentwicklungen anbieten
+* Firmen, welche professionellen "Support":de_support.html für Installation, Beratung, Wartung, praxis-spezifische Anpassung und Weiterentwicklungen anbieten
 * Die "Medelexis AG":http://www.medelexis.ch, wo Ärzte versuchen, ihre Branchensoftware nach ihren Bedürfnissen zu warten und weiter zu entwickeln. 
 
 Das Result wurde von "Dr. Ambauen":https://sourceforge.net/users/ambadso wie folgt zusammengefasst!
