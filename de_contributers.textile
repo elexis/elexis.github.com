@@ -43,6 +43,8 @@ immi, coder, various plugins
 
 *Thomas Huster*  thomashu, bug fixing, new plugins, redesigner of the elexis core
 
+*Julian Kappis* who is able to fix a lot of problems users have with Elexis, telling them how to fix their setup to make it work. He was also seen at all of the developers meeting sponsoring beers and meals offered by Medelexis.
+
 *Jörg Sigle* jsigle, coder, bug fixer, noatext_jsl
 
 *Oliver Egger* eggeroliver, coder (docbox)
@@ -64,15 +66,13 @@ User unkown to me, but part of the developer list at sf.net
 
 Gemäss "Iatrix:Sponsoren":http://www.iatrix.org/pmwiki.php?n=Elexis.Sponsoren
 
-Bisher haben Elexis mit namhaften Beträgen unterstützt, indem Sie Entwicklungs-Arbeit von Dani Lutz neben dem Bezahlen von Installationsaufwand finanzierten:
-
+bc. Bisher haben Elexis mit namhaften Beträgen unterstützt, indem Sie Entwicklungs-Arbeit von Dani Lutz neben dem Bezahlen von Installationsaufwand finanzierten:
 * Heini Frick, Luzern
 * Maria und Benedikt Barandun, Roveredo, 1000.-
 * Felix Bossart, Steinhausen, 3000.-
 * Labor BioAnalytika, Luzern, 3000.-
 * Mythenpraxis Schwyz, 10000.-
 * Thomas Ackermann, Zug 3000.- 
-
 Ohne Kommentar sind es Elexis-Benutzer, die das OpenSource Produkt nutzen und auch fördern wollen.
 Wir möchten uns hier dafür sehr bedanken.
 Die direkten Unterstützer von Gerry Weirich sind hier nicht aufgeführt.
@@ -80,4 +80,6 @@ Wir selbst haben bisher weit mehr als 100'000.- in Form von Lohnkosten für Elex
 
 Ende Zitat "Iatrix:Sponsoren":http://www.iatrix.org/pmwiki.php?n=Elexis.Sponsoren
 
-Last updated by Niklaus Giger, February 2013
+Beside invididual Elexis would not have survived without businesses like Argomed, Medelexis, Medshare, Medevit, Mepha, Roche and other investing time and money!
+
+Last updated by Niklaus Giger, May 2013
