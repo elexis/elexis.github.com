@@ -51,6 +51,7 @@ h2(#releases). Versionen
 
 Alles begann mit der Alpha-Version vom "7. April 2007":http://sourceforge.net/p/elexis/news/2006/04/alpha-version-freigegeben/.
 
+* Elexis 3.0.0 wurde am 4. August 2014 freigegeben. Details siehe "Release-Notes":https://github.com/elexis/elexis/wiki/Release-Notes-3.0.0
 * Elexis 2.1.7.1 wurde am 29. Juni 2013 freigegeben. Details siehe "Release-Notes":https://github.com/elexis/elexis/wiki/Release-Notes-for-2.1.7.1
 * Elexis 2.1.7.0 wurde am 8. November 2012 freigegeben. Details siehe "Release-Notes":https://github.com/elexis/elexis/wiki/Release-Notes-for-2.1.7.0
 * Elexis 2.1.6.4.1 wurde am  18. Mai 2012 freigegeben 

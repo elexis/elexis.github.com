@@ -2,49 +2,20 @@
 layout: default
 title: "Einstieg: Elexis kennen lernen"
 ---
-Eine aktuelle Demo-Version mit einigen Plug-In (nicht zu vielen, um Neueinsteiger nicht zu verwirren) findet man auf SourceForge via "Files":https://sourceforge.net/projects/elexis/files/latest/download. Sie kann heruntergeladen werden und ohne Probleme auf Linux, MacOSX und Windows installiert werden. 
-Optional wird zusätzlich eine Demo-Datenbank installiert, auf denen Sie ohne Risiko Ihre ersten Erfahrungen mit Elexis machen können.
-Hier erklären wir Ihnen kurz, wie Sie vorgehen müssen.
 
-Sie müssen Java installiert haben. Downloads finden Sie unter "OpenJDK":http://openjdk.java.net/install/index.html oder von "Sun":http://www.java.com/de/download/. Unter Windows wird nur die 32-Bit-Version unterstützt, d.h. auch auf einem Windows 64-Bit müssen Sie die 32-Bit-Version von Java installiert haben, um Elexis ohne Probleme benützen zu können.
+Sie müssen Java (Version 7 oder grösser) installiert haben. Downloads finden Sie unter "OpenJDK":http://openjdk.java.net/install/index.html oder von "Sun":http://www.java.com/de/download/. Unter Windows wird nur die 32-Bit-Version unterstützt, d.h. auch auf einem Windows 64-Bit müssen Sie die 32-Bit-Version von Java installiert haben, um Elexis ohne Probleme benützen zu können.
 
-Nachdem Sie die Datei heruntergeladen haben, können Sie sie mit einem Doppelclick öffnen. Falls dies aufgrund Ihrer Systemeinstellungen nicht läuft, öffnen Sie eine Kommandozeile, wechseln dort auf das Verzeichnis wo Sie den Installer heruntergeladen haben und geben dort
-@java -jar elexis-'Version-Datum'.jar@
-ein. (Ersetzen Sie bitte 'Version-Datum' durch die richtigen Werte wie '2.1.7.20121207'. Nun sollte folgender Bildschirm zur Auswahl der gewünschten Sprache kommen.
+Zum ersten Kennenlernen empfehlen wir Ihnen die Installation der Demo-Datenbank. Dazu die Zip-Datei von "sourceforge":http://download.elexis.info/demoDB/demoDB_3.0_with_administrator.zip oder "elexis.info":http://sourceforge.net/projects/elexis/files/elexis%20full%20installation/3.0.0/demoDB_3.0_with_administrator.zip herunterladen.
 
-!images/Install_01.png!
+In ihrem Heimatverzeichnis eine Ordner elexis anlegen. Die heruntergeladene Datei entpacken und den darin enthaltenen Ordner demoDB in dieses Verzeichnis elexis schieben.
 
-Nach dem Drücken von "OK", kommen Sie zur Einführung weiter.
+Zuerst müssen Sie die ZIP-Datei für Ihr Betriebssystem herunterunterladen. Diese findet man unter
+* "Sourceforge":https://sourceforge.net/projects/elexis/files/elexis%20full%20installation/3.0.0/
+* "elexis.info":http://download.elexis.info/elexis.3.core/3.0.0/
 
-!images/Install_02.png!
+Dann müssen Sie diese Datei entpacken. Meistens sollte dafür ein Doppelclick genügen.
 
-Nach dem Durchlesen, drücken Sie bitte auf "Weiter" um zum folgenden Fenster zu gelangen.
-
-!images/Install_03.png!
-
-Falls Sie die Lizenzbedingungen durch das Aktivieren des "Ja" annehmen und auf "Weiter" drücken, erscheint folgendes Fenster.
-
-!images/Install_04.png!
-
-Wählen Sie den gewünschten Installationsort aus und drücken auf "Weiter". Es erscheint folgendes Fenster.
-
-!images/Install_05.png!
-
-Für diesen Test hier empfehlen wir die Auswahl "DemoDB" zu aktivieren und auf "Weiter" zu drücken.
-
-!images/Install_06.png!
-
-Nach dem Drücken von "Weiter", wird der Fortschritt der Installation angezeigt.
-
-!images/Install_07.png!
-
-Hier haben Sie die Möglichkeit Elexis ins Start-Menü aufzunehmen und/oder eine Verknüpfung auf dem Desktop zu erstellen.
-
-!images/Install_08.png!
-
-"Automatisches Installationsskript erzeugen" ist nur für Entwickler gedacht. Drücken Sie bitte einfach auf "Fertig" um Ihre Installation zu beenden.
-
-!images/Install_09.png!
+Jetzt sollten Sie unter den entpackten Datein das Programm Elexis3 mit einem Doppelclick öffnen.
 
 Benutzer von Windows können sich wahrscheinlich noch freuen, folgenden Hinweis zu quittieren.
 
