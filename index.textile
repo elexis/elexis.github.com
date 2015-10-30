@@ -3,6 +3,9 @@ layout: default
 title: Allgemeines zu Elexis
 ---
 
+Elexis 3.1.0 sollte Ende Januar 2016 freigegeben werden. If you want to test the Beta releases, you find "them here":https://srv.elexis.info/jenkins/view/3.0/job/Elexis-3-Core-Beta/lastSuccessfulBuild/artifact/ch.elexis.core.p2site/target/products/
+
+
 h2(#introduction).  Einführung
 
 Elexis ist eine umfassende open source Software für die Arztpraxis, welche zum grossen Teil von Dr. Gerry Weirich entwickelt wurde.

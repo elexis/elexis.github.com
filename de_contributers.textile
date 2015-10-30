@@ -51,6 +51,10 @@ immi, coder, various plugins
 
 *Franz Marty* sponsored various plugins and projects (e.g. HL7 integration)
 
+*Lucia Amman* coder, many small fixes and some new plugins
+
+*Philip Wiget* Pharmed Solutions, contributed a plugin for sending prescriptions to pharmacies
+
 Plugins for which I dont know personally the authors
 
 * ch.unibe.iam.scg.archie
@@ -82,4 +86,4 @@ Ende Zitat "Iatrix:Sponsoren":http://www.iatrix.org/pmwiki.php?n=Elexis.Sponsore
 
 Beside invididual Elexis would not have survived without businesses like Argomed, Medelexis, Medshare, Medevit, Mepha, Roche and other investing time and money!
 
-Last updated by Niklaus Giger, May 2013
+Last updated by Niklaus Giger, Oktober 2015

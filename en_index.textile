@@ -13,11 +13,26 @@ The "Elexis Forum":http://elexis-forum.ch/ is the place where (Swiss-German) use
 
 The site http://www.elexis.ch contains a lot of (sometimes outdated) information as it is not actively maintained.
 
-Developers and anybody trying to compile Elexis from scratch should look at "Elexis bootstrap project":https://bitbucket.org/ngiger/elexis-bootstrap
+Developers and anybody trying to compile Elexis from scratch should look at "Elexis bootstrap project":https://github.com/ngiger/bootstrap-elexis-3
 
 h2(#news).  News
 
-* Elexis 2.1.7.0 was released on Novembeer 8 2012. For details consult the "release-notes":https://github.com/elexis/elexis/wiki/Release-Notes-for-2.1.7.0
+* Elexis 3.1.0 is planned for end of January 2016
+* Elexis 3.0.0 was released on August, 4 2014 . For details, consult "release notes":https://github.com/elexis/elexis/wiki/Release-Notes-3.0.0
+* Elexis 2.1.7.1 was released on June, 29  2013 . For details, consult "release notes":https://github.com/elexis/elexis/wiki/Release-Notes-for-2.1.7.1
+* Elexis 2.1.7.0 was released on November, 8 2012 . For details, consult "release notes":https://github.com/elexis/elexis/wiki/Release-Notes-for-2.1.7.0
+* Elexis 2.1.6.4.1 was released on May 18, 2012
+* -Elexis 2.1.6.4 was released on 14. Mai 2012 -
+* Elexis 2.1.6.2 was released on February 2, 2012
+* Elexis 2.1.6.1 was released on December 11, 2011
+* Elexis 2.1.6.0 was released on November, 27 2011
+* Elexis 2.1.5.4 was released on October 2 2011
+* Elexis 2.0 was release somewhere. But the focus was not on open-source and no more release-notes are available.
+* Elexis 1.4 was released on January 2 2009  "s.a":http://sourceforge.net/p/elexis/news/2008/12/release-14/ "doc":http://www.rgw.ch/elexis/dox/update14.pdf
+* Elexis 1.3 "Blog":http://elexisblog.blogspot.ch/2008_04_01_archive.html "release notes":http://www.elexis.ch/jp/content/view/202/39/
+* Elexis 1.2 was released on January 6, 2008  "release notes":http://sourceforge.net/p/elexis/news/2008/01/release-12/
+* Elexis 1.0 was released on June, 30 2007 . "release notes":http://sourceforge.net/p/elexis/news/2007/07/release-10/
+
 
 h2(#notices).  Credits & Notices
 

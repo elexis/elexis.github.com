@@ -32,7 +32,7 @@ Whether it's a bug, enhancement or patch, send an email using "email":#mailing_l
 
 h2(#wiki).  Community Wiki
 
-"Our community Wiki":https://github.com/elexis/elexis/wiki/_pages.
+"Our community Wiki":https://github.com/elexis/elexis/wiki.
 
 
 h2(#code).  Contributing Code
@@ -60,7 +60,7 @@ Did we mention Elexis is an open source project?  In fact, when you install Elex
 
 Compiling Elexis from scratch can be a time consuming effort if you don't follow the advise given here. If the procedures mentioned here don't work for your setup please ask a question at "Elexis developpers mailing list":https://sourceforge.net/mailarchive/forum.php?forum_name=elexis-develop before spending hours tracking down bugs.
 
-The "Elexis bootstrap project":https://bitbucket.org/ngiger/elexis-bootstrap is used by at least two different "Jenkins":http://www.jenkins-ci.org continuos integration to build an elexis version after each check-in in one of several repositories where you can find the Elexis core and most of the OpenSource plugins.
+The "Elexis bootstrap project":https://github.com/ngiger/bootstrap-elexis-3 is used by "Jenkins":http://www.jenkins-ci.org continuos integration to build an elexis version after each check-in in one of several repositories where you can find the Elexis core and most of the OpenSource plugins.
 
 The central repository is "Elexis base":http://hg.code.sf.net/p/elexis/elexis-base which contains the core of Elexis and many additional plug-ins. There you find a plug-in **ch.elexis.developer.resources**, which teaches you how to program with Elexis. Start reading the file `doc/developer.textile`.
 
@@ -129,4 +129,4 @@ h2(#ci).  Continuous Integration
 
 Elexis uses the "Jenkins":http://jenkins-ci.org/ continuous integration tool to perform builds, run tests and report back on problems when changes are made to the source code repository.
 
-The care and feeding of the "CI Jobs":http://ngiger.dyndns.org/jenkins/ is the responsibility of the committers.
+The care and feeding of the "CI Jobs":https://srv.elexis.info/jenkins/view/3.0/ is the responsibility of the committers.
