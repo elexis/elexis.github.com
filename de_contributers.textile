@@ -55,6 +55,8 @@ immi, coder, various plugins
 
 *Philip Wiget* Pharmed Solutions, contributed a plugin for sending prescriptions to pharmacies
 
+*Daniel Ludin* contributed the Cellsymbiosistherapie® CST-"plugin":https://github.com/danielludin/cst
+
 Plugins for which I dont know personally the authors
 
 * ch.unibe.iam.scg.archie
