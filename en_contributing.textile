@@ -3,7 +3,9 @@ layout: default
 title: Contributing
 ---
 
-Elexis is a community effort, and we welcome all contributors.  Here's your chance to get involved and help your fellow developers.
+Elexis started as  a community effort, and we welcome all contributors.  Here's your chance to get involved and help your fellow developers.
+
+In June 2009 early users (medicial doctors) founded the Medelexis AG, to get professional support for their business critical application. Since then most of the development is sponsored/paid/organized by Medelexis, which runs also an internal bug tracking system (aka as Redmine).
 
 h2(#involved).  Getting involved
 
@@ -13,7 +15,7 @@ If you wish to contribute code, please get acquainted with our SW guidelines, wh
 
 If you find any omission, typos, error or inaccurate statements in any of these documents please report them to the "Elexis developpers mailing list":https://sourceforge.net/mailarchive/forum.php?forum_name=elexis-develop.
 
-The release manager also maintains a ChangeLog for each repository and branch.
+The release manager also maintains a ChangeLog for each repository and branch.But as always the @git log@ command is the ultimate answer.
 
 h2(#mailing_lists).  Mailing Lists
 
@@ -23,7 +25,7 @@ h2(#bugs).  Bugs (aka Issues)
 
 Medelexis AG runs an internal bug-tracking system "redmine":https://redmine.medelexis.ch for Elexis bugs and improvements, where several hunderds bugs per year (since 2011) are tracked, classified and resolved.
 
-In the future we will probably also use github "issue tracker":https://github.com/elexis/elexis/issues
+Users and developpers using the free Elexis, may post their problems github "issue tracker":https://github.com/elexis/elexis/issues or directly in the core/base repository, where the problem is rooted.
 
 We really do try to keep bugs to a minimum, and anticipate everything you'll ever want to do with Elexis.  We're also, not perfect.  So you may have found a bug, or have an enhancement in mind, or better yet, a patch to contribute. Here's what you can do.
 
@@ -37,7 +39,15 @@ h2(#wiki).  Community Wiki
 
 h2(#code).  Contributing Code
 
-Yes, please.
+Yes, please. The following steps are usually required
+
+* clone the concerned repository(ies), e.g. "core":https://github.com/elexis/elexis-3-core or "base":https://github.com/elexis/elexis-3-base
+* create a feature branch, giving it a meaningful name (e.g. bug_430, add_cool_feature)
+* fix the problem
+* if possible a  unit test for it (you might look at "HL7-Tests":https://github.com/elexis/elexis-3-core/tree/master/ch.elexis.core.hl7.v2x.tests)
+* create a pull request via the github interface "New pull request"
+* if you don't get an answer in a week, insist on the elexis-developer list
+* listen to the comments and improve your patch till it can be incorporated
 
 h3.  The Perfect Patch
 
@@ -52,7 +62,9 @@ If you don't know how to fix it, but can at least write a test for the correct b
 
 h3.  Working on a new feature?
 
-If you want to work on a cool new feature, but not quite ready to submit a patch, there's still a way you can get the Buildr community involved.  We're experimenting with using Git for that.  You can use Git to maintain a fork of Buildr that can keep up with changes in the main branch (tip: use @git rebase@), while developing your own changes/features on it.
+If you want to work on a cool new feature, but not quite ready to submit a patch, there's still a way you can get the Elexis community involved.  We're experimenting with using Git for that.  You can use Git to maintain a fork of Elexis that can keep up with changes in the main branch (tip: use @git rebase@), while developing your own changes/features on it.
+
+You are free to license your new feature/plugin under any license you want, but
 
 h2(#edge).  Living on the edge
 
@@ -60,9 +72,17 @@ Did we mention Elexis is an open source project?  In fact, when you install Elex
 
 Compiling Elexis from scratch can be a time consuming effort if you don't follow the advise given here. If the procedures mentioned here don't work for your setup please ask a question at "Elexis developpers mailing list":https://sourceforge.net/mailarchive/forum.php?forum_name=elexis-develop before spending hours tracking down bugs.
 
-The "Elexis bootstrap project":https://github.com/ngiger/bootstrap-elexis-3 is used by "Jenkins":http://www.jenkins-ci.org continuos integration to build an elexis version after each check-in in one of several repositories where you can find the Elexis core and most of the OpenSource plugins.
+Start with the Oomp based installer, as described under "ch.elexis.sdk":https://github.com/elexis/elexis-3-core/tree/master/ch.elexis.sdk
 
-The central repository is "Elexis base":http://hg.code.sf.net/p/elexis/elexis-base which contains the core of Elexis and many additional plug-ins. There you find a plug-in **ch.elexis.developer.resources**, which teaches you how to program with Elexis. Start reading the file `doc/developer.textile`.
+The central repositories are
+* "core":https://github.com/elexis/elexis-3-core Minimal core
+* "base":https://github.com/elexis/elexis-3-base Swiss base and many useful feature
+
+h2(#ci).  Continuous Integration
+
+Elexis uses the "Jenkins":http://jenkins-ci.org/ continuous integration tool to perform builds, run tests and report back on problems when changes are made to the source code repository.
+
+The care and feeding of the "CI Jobs":https://srv.elexis.info/jenkins/view/3.0/ is the responsibility of the committers.
 
 h2(#testing).  Tested and Documented
 
@@ -124,9 +144,3 @@ $ firefox _site/index.html
 {% endhighlight %}
 
  There is no live editing. <notextile><!--does not work at the moment??? TODO:, but you can run @rake jekyll auto=true@, and when you update and save a Textile page it will regenerate the corresponding HTML page./--></notextile>
-
-h2(#ci).  Continuous Integration
-
-Elexis uses the "Jenkins":http://jenkins-ci.org/ continuous integration tool to perform builds, run tests and report back on problems when changes are made to the source code repository.
-
-The care and feeding of the "CI Jobs":https://srv.elexis.info/jenkins/view/3.0/ is the responsibility of the committers.
