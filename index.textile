@@ -3,7 +3,7 @@ layout: default
 title: Allgemeines zu Elexis
 ---
 
-Elexis 3.1.0 sollte Ende Januar 2016 freigegeben werden. If you want to test the Beta releases, you find "them here":https://srv.elexis.info/jenkins/view/3.0/job/Elexis-3-Core-Beta/lastSuccessfulBuild/artifact/ch.elexis.core.p2site/target/products/
+Elexis 3.1.0 sollte im April 2016 freigegeben werden. If you want to test the Beta releases, you find "them here":https://srv.elexis.info/jenkins/view/3.0/job/Elexis-3-Core-Beta/lastSuccessfulBuild/artifact/ch.elexis.core.p2site/target/products/
 
 
 h2(#introduction).  Einführung
@@ -19,6 +19,13 @@ Elexis ist in Java geschrieben dh läuft grundsätzlich auf allen Plattformen, a
 Open/LibreOffice kann in Elexis integriert werden.
 
 Eine Anleitung zur Installation einer voll funktionsfähigen Demo-Version von Elexis finden Sie unter "Elexis kennenlernen":de_quick_start.html
+
+Die Bachelor-Arbeit von Chételat Marc-Alain mit dem Titel "Open Source Alternativen zu proprietärer Verwaltungssoftware in der Schweizer Arztpraxis":http://www.digitale-nachhaltigkeit.unibe.ch/unibe/portal/fak_wiso/a_bwl/inst_wi/abt_digital/content/e273593/e393023/e393029/e393448/Chetelat2015_OSSArztpraxisLoesung_ger.pdf von 2015 beschreibt die Vorzüge von Open Source Software gegenüber propritären Lösungen. Auf Seite 25 steht
+
+bc. Elexis ist also kein Open Source Projekt, welches sich noch in den Anfängen
+befindet. Nach mehr als zehn Jahren Entwicklung ist es eine ausgereifte,
+konkurrenzfähige Software.
+
 
 h2(#why).  Das Erfolgsrezept von Elexis
 
