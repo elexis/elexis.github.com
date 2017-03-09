@@ -1,5 +1,8 @@
 highlighter: pygments
+markdown: kramdown
 safe: true
+source:           .
+destination:      _gh_pages
 # source: <your pages repo>
 # destination: <the build dir>
 lsi: false

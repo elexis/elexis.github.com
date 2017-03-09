@@ -1,5 +1,0 @@
-# developers notice
-# https://help.github.com/articles/using-jekyll-with-pages
-# bundle exec jekyll serve
-# test your output at http://0.0.0.0:4000/
-# (after switching to the gh-pages
