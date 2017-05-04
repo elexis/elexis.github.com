@@ -3,18 +3,27 @@ title: Allgemeines zu Elexis
 permalink: index.html
 ---
 
-Elexis 3.1.0 sollte im April 2017 freigegeben werden. If you want to
-test the Pre-Releases, you find [them
-here](https://srv.elexis.info/jenkins/view/3.0/job/Elexis-3.0-Core-Releases/lastSuccessfulBuild/artifact/ch.elexis.core.p2site/target/products/)
+**Elexis wird 30. Juni 2017 10 Jahre alt**
 
-Die Version 3.2 wurde von der Firma Medelexis für ein Kunden spezfische
-Projekt genutzt, das unter anderem auch einen
-[Elexis-Server](https://github.com/elexis/elexis-server) zur Verfügung
-stellt.
+Am **4. Mai 2017** wurde **Elexis 3.1.0** freigegeben.
 
-In der Version 3.3 (geplant 2. Q 2017) soll Elexis auf Eclipse 4.x (im
-Kompatibilitätsmodus) und das Build-System auf einen neuere Version von
-Maven hochgezogen werden.
+Elexis 3.2.0 wird nicht für eine grösseres Publikum eingesetzt, da darin vor allem Weiterentwicklunge vorhanden sind. Unter ander findet man dort:
+* [Elexis-Server](https://github.com/elexis/elexis-server)
+* neue grafische Agenda
+* eine verbesserte Medidata-Anbindung
+* die Möglichkeit mehrere Lager zu führen,
+* eine Anbindung an den Rüstautomat von ROWA
+* die Möglichkeit der Online-Terminvergabe via Medicosearch
+
+Elexis 3.3.0 ist für die zweite Hälfte 2017 geplant und sollte sollte neben den Verbesserungen von 3.2.0 folgendes bieten
+* Eclipse 4.x (im Kompatibilitätsmodus)
+* Umstieg von Maven 3.0.5 auf eine aktueller Version
+* Anpassungen der ESR-Files (ISO-20022)
+* neue Tarmed-Update, welches voraussichtlich per 1.1.2018 zum Einsatz kommen wird.
+* eMediplans
+* verbesserten Rechnungsstellung bzw. Korrekturmöglichkeit
+
+Die aktuellsten Build im unstable/snapshot/master branch finden Sie [hier](https://srv.elexis.info/jenkins/view/3.0/job/Elexis-3.0-Core-Releases/lastSuccessfulBuild/artifact/ch.elexis.core.p2site/target/products/).
 
 Einführung {#introduction}
 ----------
@@ -115,8 +124,11 @@ Versionen {#releases}
 Alles begann mit der Alpha-Version vom [7. April
 2007](http://sourceforge.net/p/elexis/news/2006/04/alpha-version-freigegeben/).
 
--   Elexis 3.0.0 wurde am 4. August 2014 freigegeben. Details siehe
-    [Release-Notes](https://github.com/elexis/elexis/wiki/Release-Notes-3.0.0)
+-   Elexis 3.1.0 wurde am 4. Mai 2017 freigegeben. Details siehe
+    [release
+    notes](https://wiki.elexis.info/Release-Notes-3.1.0)
+-   Elexis 3.0.25: Die letzte Versionen mit Fehlerbehebungen und kleinen neuen Features für den 3.10 Zweig
+    wurde am 20. Januar 2016 freigegeben
 -   Elexis 2.1.7.1 wurde am 29. Juni 2013 freigegeben. Details siehe
     [Release-Notes](https://github.com/elexis/elexis/wiki/Release-Notes-for-2.1.7.1)
 -   Elexis 2.1.7.0 wurde am 8. November 2012 freigegeben. Details siehe

@@ -29,7 +29,11 @@ installer](https://github.com/elexis/elexis-3-core/tree/master/ch.elexis.sdk)
 News
 ----
 
--   Elexis 3.1.0 is planned for end of January 2016
+-   Elexis 3.1.0 was release on May, 4 2017. For details, consult
+    [release
+    notes](https://wiki.elexis.info/Release-Notes-3.1.0)
+-   Elexis 3.0.25: the last release for bug fix and minor improvements for the elexis 3.0 branch
+    was released on January, 20 2016
 -   Elexis 3.0.0 was released on August, 4 2014 . For details, consult
     [release
     notes](https://github.com/elexis/elexis/wiki/Release-Notes-3.0.0)

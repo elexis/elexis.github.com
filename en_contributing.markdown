@@ -187,9 +187,9 @@ and produces clean HTML. You can learn it all in a few minutes from the
 [Textile Reference Manual](http://redcloth.org/textile). Also check out
 the [Textile Quick Reference](http://hobix.com/textile/quick.html).
 
-Syntax highlighting handled by [Pygments](http://pygments.org). Use the
+Syntax highlighting handled by [Rouge](https://github.com/jneen/rouge). Use the
 special `highlight` tag to separate code sample from the rest of the
-text and to tell Pygments which language to use. For example:
+text and to tell Rouge which language to use. For example:
 
     {% highlight java %}
     public Hub(){
