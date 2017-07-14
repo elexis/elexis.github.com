@@ -3,9 +3,9 @@ title: Allgemeines zu Elexis
 permalink: index.html
 ---
 
-**Elexis wird 30. Juni 2017 10 Jahre alt**
+**Elexis wurde 30. Juni 2017 10 Jahre alt**
 
-Am **4. Mai 2017** wurde **Elexis 3.1.0** freigegeben.
+Am **1. Juli 2017** wurde **Elexis 3.1.3** freigegeben.
 
 Elexis 3.2.0 wird nicht für eine grösseres Publikum eingesetzt, da darin vor allem Weiterentwicklunge vorhanden sind. Unter ander findet man dort:
 * [Elexis-Server](https://github.com/elexis/elexis-server)
@@ -20,7 +20,7 @@ Elexis 3.3.0 ist für die zweite Hälfte 2017 geplant und sollte sollte neben de
 * Umstieg von Maven 3.0.5 auf eine aktueller Version
 * Anpassungen der ESR-Files (ISO-20022)
 * neue Tarmed-Update, welches voraussichtlich per 1.1.2018 zum Einsatz kommen wird.
-* eMediplans
+* eMediplan
 * verbesserten Rechnungsstellung bzw. Korrekturmöglichkeit
 
 Die aktuellsten Build im unstable/snapshot/master branch finden Sie [hier](https://srv.elexis.info/jenkins/view/3.0/job/Elexis-3.0-Core-Releases/lastSuccessfulBuild/artifact/ch.elexis.core.p2site/target/products/).
@@ -35,14 +35,17 @@ Elexis wird als Open-Source-Software entwickelt, dh die Software selbst
 ist frei, der Quellcode veröffentlicht und kostenlos. Dies erlaubt vor
 allem, dass individuelle Wünsche von jedem Nutzer ‘angebaut’ werden
 können, meist wohl als Auftrag an einen Programmierer. Damit ist Elexis
-auch nie definitiv fertig gestellt.\
+auch nie definitiv fertig gestellt.
+
 Aktuell fehlen noch einige von uns gewünschten Features und Finessen.
 Aber seit 3-4 Jahren arbeiten rund 100 Ärzte damit; nicht alle sind uns
 bekannt. Je grösser der Anwenderkreis mit der Bereitschaft das Projekt
-mitzutragen, desto raffinierter, ausgeklügelter wird das System.\
+mitzutragen, desto raffinierter, ausgeklügelter wird das System.
+
 Das Projekt soll durch freiwillige Mitarbeit und Entgeltung für
 Beratung, Installation, Support und Wartung, aber auch durch Aufträge
-für Weiterentwicklungen lebendig erhalten werden.\
+für Weiterentwicklungen lebendig erhalten werden.
+
 Einige Ärzte und die [Argomed](http://www.argomed.ch/) gründeten 2009
 die [Medelexis AG](http://www.medelexis.ch), welche Support zu Elexis
 anbietet und viel Zeit und Geld in die Weiterentwicklung von Elexis
@@ -51,7 +54,8 @@ investiert hat.
 Elexis ist in Java geschrieben dh läuft grundsätzlich auf allen
 Plattformen, auch auf dem kostenlosen Linux. Es macht aktuell am ehesten
 Sinn, den Server mit Linux, die Clients mit Windows, MacOSX oder Linux
-zu betreiben.\
+zu betreiben.
+
 Open/LibreOffice kann in Elexis integriert werden.
 
 Eine Anleitung zur Installation einer voll funktionsfähigen Demo-Version
@@ -93,11 +97,13 @@ Was ist Elexis {#what}
 Im Zentrum steht die elektronische Krankengeschichte. Ein
 Abrechnungssystem ist eingeschlossen. Mit Elexis können Ärzte all ihre
 Patientenakten verwalten, dh auch externe Dateien, alte Berichte,
-(Röntgen-)Bilder, Faxe; dies ist spz für den Umstieg wichtig.\
+(Röntgen-)Bilder, Faxe; dies ist spz für den Umstieg wichtig.
+
 Selbstverständlich können auch nur Teile des Programms zB die
-Fakturierung oder die elektronische Agenda verwendet werden.\
+Fakturierung oder die elektronische Agenda verwendet werden.
 Trotz der umfassenderen Fähigkeiten bleibt Elexis günstiger als andere
-reine Abrechnungslösungen.\
+reine Abrechnungslösungen.
+
 Elexis ist extrem an individuelle Wünsche anpassbar.
 
 Elexis kann im Gegensatz zu anderen Arztpraxis-Programmen folgende
@@ -124,6 +130,15 @@ Versionen {#releases}
 Alles begann mit der Alpha-Version vom [7. April
 2007](http://sourceforge.net/p/elexis/news/2006/04/alpha-version-freigegeben/).
 
+-   Elexis 3.1.3 wurde am 1. Juli 2017 freigegeben. Details siehe
+    [release
+    notes](https://wiki.elexis.info/Release-Notes-3.1.3)
+-   Elexis 3.1.2 wurde am 15. Juni 2017 freigegeben. Details siehe
+    [release
+    notes](https://wiki.elexis.info/Release-Notes-3.1.2)
+-   Elexis 3.1.1 wurde am 7. Juni 2017 freigegeben. Details siehe
+    [release
+    notes](https://wiki.elexis.info/Release-Notes-3.1.1)
 -   Elexis 3.1.0 wurde am 4. Mai 2017 freigegeben. Details siehe
     [release
     notes](https://wiki.elexis.info/Release-Notes-3.1.0)

@@ -21,7 +21,7 @@ For bug reports, issues and patches, [see below](#bugs).
 
 If you wish to contribute code, please get acquainted with our SW
 guidelines, which you find in the file
-\`ch.elexis.developer.resources/doc/sw-guidelines.textile\`.
+`ch.elexis.developer.resources/doc/sw-guidelines.textile`.
 
 If you find any omission, typos, error or inaccurate statements in any
 of these documents please report them to the [Elexis developpers mailing
@@ -69,8 +69,8 @@ Yes, please. The following steps are usually required
 -   clone the concerned repository(ies), e.g.
     [core](https://github.com/elexis/elexis-3-core) or
     [base](https://github.com/elexis/elexis-3-base)
--   create a feature branch, giving it a meaningful name (e.g. bug\_430,
-    add\_cool\_feature)
+-   create a feature branch, giving it a meaningful name (e.g. bug_430,
+    add_cool_feature)
 -   fix the problem
 -   if possible a unit test for it (you might look at
     [HL7-Tests](https://github.com/elexis/elexis-3-core/tree/master/ch.elexis.core.hl7.v2x.tests))

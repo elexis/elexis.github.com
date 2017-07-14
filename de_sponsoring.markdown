@@ -26,7 +26,8 @@ So gibt es noch für folgende Problembereiche, keine OpenSource-Lösung:
 Als weitere Möglichkeit können Ärzte auch für noch nicht gelöste Fehler
 oder kleine oder grössere Verbesserungern im [Issue
 Tracker](https://github.com/elexis/elexis/issues), via
-[FreedomSponsors](http://www.freedomsponsors.org/).\
+[FreedomSponsors](http://www.freedomsponsors.org/).
+
 Wie man dort vorgehen muss, ist auf der Homepage unter
 [about](http://blog.freedomsponsors.org/about/) (auf Englisch) erklärt.
 Hier eine kurze Zusammenfassung:
@@ -46,7 +47,7 @@ Umgebung z.B. genau diesen Fehler schon korrigiert hat)
 * Andere Sponsoren können ebenfalls für die Lösung zusätzliche bieten
 * Wenn der Sponsor mit dem Resultat zufrieden ist, bezahlt er via
 Paypal den Entwickler. Für diesen Service belastet FreedomSponsors 3%
-der bezahlten Gelder.\
+der bezahlten Gelder.
 * Wichtig: Niemand wird gezwungen irgendwas zu bezahlen. Es gibt keine
 Betrüger und keinen Vorschuss. Dies ist kein Detail der Umsetzung,
 sondern die Philosophie hinter FreedomSponsors.
