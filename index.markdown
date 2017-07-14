@@ -131,19 +131,17 @@ Alles begann mit der Alpha-Version vom [7. April
 2007](http://sourceforge.net/p/elexis/news/2006/04/alpha-version-freigegeben/).
 
 -   Elexis 3.1.3 wurde am 1. Juli 2017 freigegeben. Details siehe
-    [release
-    notes](https://wiki.elexis.info/Release-Notes-3.1.3)
+    [Release notes](https://wiki.elexis.info/Release-Notes-3.1.3)
 -   Elexis 3.1.2 wurde am 15. Juni 2017 freigegeben. Details siehe
-    [release
-    notes](https://wiki.elexis.info/Release-Notes-3.1.2)
+    [Release notes](https://wiki.elexis.info/Release-Notes-3.1.2)
 -   Elexis 3.1.1 wurde am 7. Juni 2017 freigegeben. Details siehe
-    [release
-    notes](https://wiki.elexis.info/Release-Notes-3.1.1)
+    [Release notes](https://wiki.elexis.info/Release-Notes-3.1.1)
 -   Elexis 3.1.0 wurde am 4. Mai 2017 freigegeben. Details siehe
-    [release
-    notes](https://wiki.elexis.info/Release-Notes-3.1.0)
--   Elexis 3.0.25: Die letzte Versionen mit Fehlerbehebungen und kleinen neuen Features für den 3.10 Zweig
+    [Release notes](https://wiki.elexis.info/Release-Notes-3.1.0)
+-   Elexis 3.0.25: Die letzte Versionen mit Fehlerbehebungen und kleinen neuen Features für den 3.0-er Zweig
     wurde am 20. Januar 2016 freigegeben
+-   Elexis 3.0.0: Die erste Version der 3.0-er Zweig wurde am 4. August 2014 freigegeben.  Details siehe
+    [Release notes](https://wiki.elexis.info/Release-Notes-3.0.0)
 -   Elexis 2.1.7.1 wurde am 29. Juni 2013 freigegeben. Details siehe
     [Release-Notes](https://github.com/elexis/elexis/wiki/Release-Notes-for-2.1.7.1)
 -   Elexis 2.1.7.0 wurde am 8. November 2012 freigegeben. Details siehe
