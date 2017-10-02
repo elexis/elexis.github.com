@@ -1,29 +1,17 @@
 #!/usr/bin/ruby
-# License Eclipse Public License 
-# You may obtain a copy of the License at
-#
-#    http://www.eclipse.org/legal/epl-v10.html
-#
-# rakefile was inspired by the buildr.apache.org
 require 'jekyll'
 require 'jekylltask'
 
 begin
 
-desc 'Generate Elexis documentation in _site/'
+desc 'Generate web page  in _site/'
 JekyllTask.new 'jekyll' do |task|
   task.source = '.'
   task.target = '_site'
 end
 
-JekyllTask.new 'jekyll' do |task|
-  task.source =  '.'
-  task.target = '_site'
-end if false
-
 desc 'Build a copy of the Web site in the ./_site'
 task 'site' => ['_site'] do
-#  cp 'CHANGELOG', '_site'
   open('_site/.htaccess', 'w') do |htaccess|
     htaccess << %Q{
 <FilesMatch "CHANGELOG">
@@ -36,6 +24,11 @@ end
 
 task 'clobber' do
   rm_rf '_site'
+end
+
+desc 'start a web-server for this site under http://127.0.0.1:4000'
+task  :webserver  => :site do
+   system("bundle exec jekyll server")
 end
 
 rescue Exception => e

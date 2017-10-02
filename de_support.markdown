@@ -3,23 +3,27 @@ title: Professionelle Unterstützung
 permalink: de_support.html
 ---
 
-[Medelexis AG](http://www.medelexis.ch) offers commercial support for
-medical practices in the German speaking part of Switzerland. It has
-also developped some proprietary plug-ins and has invested much time,
-effort and money to squash all bugs out of Elexis.
+[english version](en_support.html)
 
-We know of the following companies offering help in developing new
-plug-ins and/or improving existing features of Elexis:
+Die [Medelexis AG](http://www.medelexis.ch) bietet Deutsch-Schweizer Arztpraxen
+Unterstützung bei der Einführung und dem Einsatz von Elexis.
+
+Die Medelexis AG finanziert den überwiegenden Anteil der Weiterentwicklung von Elexis
+und hat viel Zeit und Geld in die Behebung von Fehler in Elexis investiert.
+Sie bietet auch diverse proprietäre Plugins an, welche die Funktionalität von Elexis 
+erweitert. Sie hat auch schon mehrmals proprietäre Plugins bei entsprechender Anfrage
+und eine finanzielle Entschädigung für die geleistete Entwicklungsarbeit als
+quelloffene Software unter der Eclipse Public License freigegeben.
+
+Wir kennen folgende Firmen, welche neue Feature entwicklen oder die Funktionalität
+von Elexis verbessern helfen:
 * [Medelexis AG](http://www.medelexis.ch)
 * [Medevit](http://www.medevit.at)
 * [MedShare GmbH](http://www.medshare.ch)
 * [Hilotec](http://www.hilotec.com)
 
-Besides Medelexis there are several other swiss german companies
-offering support for installing and administrating Elexis (either plain
-OpenSource or the Medelexis variant) in medical practices.
-
-If you wish to add your company and have a proven track record, the
-maintainers of this site will be pleased to add you here, too.
+Falls Sie Ihre Firma hier aufgeführt sehen möchten und belegen können,
+dass sie gute Beiträge zu Elexis geleistet haben, wenden Sie sich bitte
+an den Betreuer dieser Webseite [Niklaus Giger](mailto:niklaus.giger@member.fsf.org)
 
 
