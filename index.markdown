@@ -5,7 +5,7 @@ permalink: index.html
 
 **Elexis wurde am 30. Juni 2017 10 Jahre alt**
 
-Am **20. September 2017** wurde **Elexis 3.1.7** (knapp 5 Monate nach 3.1.0) freigegeben. Einen Ausblick auf die auf **Ende November 2017** geplante Elexis Version **3.3.0**  finden Sie unter [Ausblick](ausblick.html)
+Am **20. September 2017** wurde **Elexis 3.1.7** (knapp 5 Monate nach 3.1.0) freigegeben. Einen Ausblick auf die auf **Ende November 2017** geplante Elexis Version **3.4.0**  finden Sie unter [Ausblick](ausblick.html)
 
 Einführung {#introduction}
 ----------

@@ -1,9 +1,9 @@
 ---
-title: Vorschau die nächste (grössere) Elexis Version
+title: Vorschau Elexis 3.4
 permalink: ausblick.html
 ---
 
-Eine Elexis Version **3.3.0** wird auf **Ende November 2017** geplant und folgende Verbesserungen gegenüber 3.1.0 enthalten
+Eine Elexis Version **3.4.0** wird auf **Ende November 2017** geplant und folgende Verbesserungen gegenüber 3.1.0 enthalten
 
 * Eclipse 4.x (im Kompatibilitätsmodus)
 * Anpassungen der ESR-Files (ISO-20022)
@@ -12,24 +12,18 @@ Eine Elexis Version **3.3.0** wird auf **Ende November 2017** geplant und folgen
 * Verbesserte View für Erinnerungen
 * Neues (OpenSOurce oder proprietäres) feature, um PDF für Rechnungen, Rezepte, etc (via XSLT-konfigurierbar) zu erstellen. Ist viel schneller als das Word-Plugin
 * eMediplan
-* Neue vereinheitliche View für Rechnungserstellung, welch diverse bestehende Views ersetzen wird und 
-** Suche (z.B. zu verrechnende Konsultationen) wesentlich schneller
-** Alle häufig gebrauchten Aktionen sind via ShortCut und/oder Icon erreichbar
-** Stornierte Buchungung können weiterhin korrekt angezeigt werden
-** Zugewiesener Fall kann geändert werden
-** Rechnungsempfänger kann geändert werden
+* Neue vereinheitliche View für Rechnungserstellung, welch diverse bestehende Views ersetzen wird
+    * Suche (z.B. zu verrechnende Konsultationen) wesentlich schneller
+    * Alle häufig gebrauchten Aktionen sind via ShortCut und/oder Icon erreichbar
+    * Stornierte Buchungung können weiterhin korrekt angezeigt werden
+    * Zugewiesener Fall kann geändert werden
+    * Rechnungsempfänger kann geändert werden
 * Neue Befunde View, welche ein strukturierte Eingaben ermöglicht
-* Erweiterungen um den Einstieg für neue Elexis-Benutzer einfacher zu gestalten
-** Nach Installation von Elexis wird die Elexis-Easy-Perspektive angezeigt
-** Spickzettel für die grundlegenden Arbeiten wie  neue Konsultations, Medikament verschreiben/drucken, Konsultation verrechnen, AUF (Arbeitsunfähigkeitszeugnis) drucken
-* Erweiterunge für gewiefte Elexis-Benutzer und alle die es werden wollen
-** Tipps dazu unter [https://wiki.elexis.info/PowerUser](https://wiki.elexis.info/PowerUser)
-** Häufig gebrauchte Aktionen werden als ShortCuts zur Verfügung gestellt
 * Umstieg von Maven 3.0.5 auf eine aktueller Version
 * Überarbeitete Perspektiven (Arbeitsumgebungen) Management
 * Die für Elexis 3.2.0/3.3.0 erwähnten Verbesserungen
 
-Elexis 3.2.0 und 3.3.0 werden nichtnicht für eine grösseres Publikum eingesetzt, da darin vor allem Weiterentwicklunge vorhanden sind, welche nur in einigen wenigen Praxen eingesetzt werden, so auch eine **Elexis-Server Infrastruktur** vorhanden ist. Unter ander findet man dort:
+Elexis 3.2.0 und 3.3.0 wurden nicht für eine grösseres Publikum eingesetzt, da darin vor allem Weiterentwicklunge vorhanden sind, welche nur in einigen wenigen Praxen eingesetzt werden, so auch eine **Elexis-Server Infrastruktur** vorhanden ist. Unter ander findet man dort:
 * [Elexis-Server](https://github.com/elexis/elexis-server)
 * neue grafische Agenda
 * eine verbesserte Medidata-Anbindung

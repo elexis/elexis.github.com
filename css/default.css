@@ -19,7 +19,7 @@ body {
   background-color: #fff;
   color: #000;
   font-family: "Helvetica Neue", "DejaVu Sans", "Verdana", sans-serif;
-  text-align: center;
+  text-align: left;
   line-height: 150%;
 }
 
@@ -48,7 +48,10 @@ pre {
   white-space: -moz-pre-wrap !important;  /* Mozilla, since 1999 */
 }
 pre br { display: none; }
-
+header_elem {
+  font-family: "Gill Sans";
+  line-height: 1.25em;
+}
 h1, h2, h3 {
   font-family: "Gill Sans";
   padding: 0;
@@ -61,7 +64,6 @@ h1 {
   font-size: 2em;
   margin-top: 0;
   padding-bottom: 0.3em;
-  border-bottom: 1px solid #808080;
 }
 
 h2 {

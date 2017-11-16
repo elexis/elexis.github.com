@@ -10,17 +10,31 @@
       @import 'css/print.css';
     </style>
     <meta content='Elexis Dokumentation' name='subject'>
-    <link href='images/favicon.png' rel='shortcut icon'>
+    <link href='images/favicon.ico' rel='shortcut icon'>
   </head>
   <body>
     <div id='wrap'>
-      <div id='header'>
-        <a href='https://github.com/elexis/' title="Elexis: eine umfassende Lösung für die Arztpraxis"><img width="150" height="65" alt='elexis' src='images/splash.png'></a>
-				<div align='right' class='tagline'>Elexis: eine freie Software<br>von Ärzten für Ärzte</div>
-      </div>
+        <table>
+          <tr>
+            <td><a href='https://github.com/elexis/' title="Elexis: eine umfassende Lösung für die Arztpraxis"><img width="150" height="65" alt='elexis' src='images/splash.png'></a></td>
+            <td align='middle' ><h1>Elexis: eine freie Software<br>von Ärzten für Ärzte</h1></td>
+            <td align= "right" >
+                <h3>
+                <a href='http://www.netzwoche.ch/news/2017-10-23/das-sind-die-sieger-der-dinacon-awards#main-content'>Gewinner</a>
+                <br>DINAcon<br>
+                <a href='https://dinacon.ch/dinacon-awards/'>Award 2017</a>
+                </h3>
+            </td>
+            <td>
+            <a href='https://dinacon.ch/dinacon-awards/'>
+                <img Height="120"  alt='dinacon 2017' src='images/dinacon_2017_gelb_small.jpg'></td>
+            </a>
+          </tr>
+        </table>
+        </div>
       <div id='pages'>
         <ol class='toc'>
-					<li>Hier beginnen
+            <li>Hier beginnen
             <ol class="toc">
 							<li><a href='index.html'>Willkommen</a></li>
 							<li><a href='https://wiki.elexis.info/Installation_Elexis_3.0_OpenSource'>Elexis kennenlernen</a></li>
@@ -65,7 +79,7 @@
         <h1 id='{{page.title}}'>{{ page.title }}</h1>
         {{ content }}
       </div>
-      <div id='footer'>Copyright &copy; 2015 Niklaus Giger</div>
+      <div id='footer'>Copyright &copy; 2015-2017 Niklaus Giger</div>
     </div>
   </body>
 </html>
