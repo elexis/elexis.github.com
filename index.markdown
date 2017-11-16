@@ -112,6 +112,9 @@ Versionen {#releases}
 Alles begann mit der Alpha-Version vom [7. April
 2007](http://sourceforge.net/p/elexis/news/2006/04/alpha-version-freigegeben/).
 
+https://wiki.elexis.info/Release-Notes-3.1.8
+-   Elexis 3.1.8 wurde am 3. November 2017 freigegeben. Details siehe
+    [Release notes](https://wiki.elexis.info/Release-Notes-3.1.8)
 -   Elexis 3.1.7 wurde am 20. September 2017 freigegeben. Details siehe
     [Release notes](https://wiki.elexis.info/Release-Notes-3.1.7)
 -   Elexis 3.1.6 wurde am 24. August 2017 freigegeben. Details siehe
