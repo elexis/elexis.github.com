@@ -7,3 +7,5 @@ To contribute to elexis.info
 # bundle install
 # bundle exec rake webserver
 # point your browser at http://127.0.0.1:4000/ and see whether everything is okay
+
+Multilingual support (not yet implemented is documented here: https://www.klaasnotfound.com/2017/02/16/proper-multilingual-site-with-github-pages-and-jekyll/

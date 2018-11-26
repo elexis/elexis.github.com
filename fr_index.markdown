@@ -49,9 +49,9 @@ grossesse, etc)
 Nouvelles {#news}
 ---------
 
-Elexis 2.1.7.0 a été publié le 8. novembre 2012. Pour les détails
-consultez
-[Release-Notes](https://github.com/elexis/elexis/wiki/Release-Notes-for-2.1.7.0)
+**Elexis 3.6.0** a été publié en juillet 2018. Pour les détails
+consultez les [Release notes](https://wiki.elexis.info/Release-Notes-3.6.0)
+
 
 Mérites & license {#notices}
 -----------------

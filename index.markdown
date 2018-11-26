@@ -5,7 +5,9 @@ permalink: index.html
 
 **Elexis wurde am 30. Juni 2017 10 Jahre alt**
 
-Am **25. Dezember 2017** wurde **Elexis 3.4.0** freigegeben, welche den neuen, ab 1.1.2018 gültigen Tarmed 1.09 unterstützt. Es scheint, dass somit fast alle Anwender von Elexis gezwungen sind, auf diese neue Version zu wechseln.
+Im **August 2018** wurde **Elexis 3.6.0** freigegeben. Wie üblich wurden diverse Fehler behoben und nützliche Erweiterungen für die Anwender umgesetzt. Details finden Sie in den [Release notes](https://wiki.elexis.info/Release-Notes-3.6.0)
+
+Die nächste Version **3.7.0** ist auf **Dezember 2018** geplant.
 
 Einführung {#introduction}
 ----------
@@ -112,6 +114,10 @@ Versionen {#releases}
 Alles begann mit der Alpha-Version vom [7. April
 2007](http://sourceforge.net/p/elexis/news/2006/04/alpha-version-freigegeben/).
 
+-   Elexis 3.6.0 wurde im August 2018 freigegeben. Details siehe
+    [Release notes](https://wiki.elexis.info/Release-Notes-3.6.0)
+-   Elexis 3.5.0 wurde im Mai 2018 freigegeben. Details siehe
+    [Release notes](https://wiki.elexis.info/Release-Notes-3.5.0)
 -   Elexis 3.4.0 wurde am 25. Dezember 2017 freigegeben. Details siehe
     [Release notes](https://wiki.elexis.info/Release-Notes-3.4.0)
 -   Elexis 3.1.9 wurde am 15. Dezember 2017 freigegeben. Details siehe
