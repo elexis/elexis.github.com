@@ -1,85 +1,24 @@
-<html>
-  <head>
-	<meta content='text/html;charset=UTF-8' http-equiv='Content-Type'>
-    <title>Elexis &mdash; {{ page.title }}</title>
-    <style type='text/css'>
-			@import 'css/default.css';
-      @import 'css/syntax.css';
-    </style>
-    <style media='print' type='text/css'>
-      @import 'css/print.css';
-    </style>
-    <meta content='Elexis Dokumentation' name='subject'>
-    <link href='images/favicon.ico' rel='shortcut icon'>
-  </head>
-  <body>
-    <div id='wrap'>
-        <table>
-          <tr>
-            <td><a href='https://github.com/elexis/' title="Elexis: eine umfassende Lösung für die Arztpraxis"><img width="150" height="65" alt='elexis' src='images/splash.png'></a></td>
-            <td align='middle' ><h1>Elexis: eine freie Software<br>von Ärzten für Ärzte</h1></td>
-            <td align= "right" >
-                <h3>
-                <a href='http://www.netzwoche.ch/news/2017-10-23/das-sind-die-sieger-der-dinacon-awards#main-content'>Gewinner</a>
-                <br>DINAcon<br>
-                <a href='https://dinacon.ch/dinacon-awards/'>Award 2017</a>
-                </h3>
-            </td>
-            <td>
-            <a href='https://dinacon.ch/dinacon-awards/'>
-                <img Height="120"  alt='dinacon 2017' src='images/dinacon_2017_blue_small.jpg'></td>
-            </a>
-          </tr>
-        </table>
-        </div>
-      <div id='pages'>
-        <ol class='toc'>
-            <li>Hier beginnen
-            <ol class="toc">
-							<li><a href='index.html'>Willkommen</a></li>
-							<li><a href='https://wiki.elexis.info/Installation_Elexis_3.0_OpenSource'>Elexis kennenlernen</a></li>
-              <li><a href='http://wiki.elexis.info/'>Wiki-Seiten</a></li>
-              <li><a href='de_contributers.html'>Danke an..</a></li>
-              <li><a href='en_index.html'>Start here</a></li>
-              <li><a href='fr_index.html'>Commencer ici</a></li>
-            </ol>
-          </li>
-          <li>Elexis erfolgreich einsetzen
-            <ol class="toc">
-              <li><a href='de_support.html'>Unterstützung</a></li>
-              <li><a href='http://wiki.elexis.info/'>Wiki-Dokumentation</a></li>
-              <li><a href='http://elexis-forum.ch/'>Elexis-Forum</a></li>
-              <li><a href='http://www.iatrix.org/'>Tipps von Iatrix</a></li>
-              <li><a href='http://www.elexis.ch/'>www.elexis.ch</a></li>
-              <li><a href='http://sourceforge.net/projects/elexis/files/Handbooks/2.1.7.0/Handbuch/elexis.pdf/download'>Handbuch v1.4 (deutsch)</a></li>
-              <li><a href='http://sourceforge.net/projects/elexis/files/Handbooks/2.1.7.0/doc_fr/elexis.pdf/download'>Manuel v1.4 (français)</a></li>
-            </ol>
-          </li>
-          <li>Mitmachen
-            <ol class="toc">
-              <li><a href='de_sponsoring.html'>Sponsor werden</a></li>
-              <li><a href='de_document.html'>Dokumentation</a></li>
-              <li><a href='http://download.elexis.info/'>download</a></li>
-              <li><a href='https://github.com/elexis/elexis/issues'>Bugs (github)</a></li>
-              <li><a href='https://redmine.medelexis.ch'>Bugs (Medelexis)</a></li>
-              <li><a href='https://srv.elexis.info/jenkins'>CI Jobs</a></li>
-            </ol>
-          </li>
-          <li>Für Entwickler/<br>for developers
-            <ol class="toc">
-              <li><a href='en_contributing.html'>contributing code</a></li>
-              <li><a href='https://github.com/ngiger/bootstrap-elexis-3'>build from scratch</a></li>
-              <li><a href='https://wiki.elexis.info'>Wiki</a></li>
-              <li><a href='https://github.com/elexis/elexis/wiki/Roadmap'>Roadmap</a></li>
-            </ol>
-          </li>
-        </ol>
-      </div>
-      <div id='content'>
-        <h1 id='{{page.title}}'>{{ page.title }}</h1>
-        {{ content }}
-      </div>
-      <div id='footer'>Copyright &copy; 2015-2017 Niklaus Giger</div>
+<!DOCTYPE html>
+<html lang="en-us">
+
+  {% include head.html %}
+
+  <body theme-base-08>
+    {% include sidebar.html %}
+    <div class="content container">
+  {% include elexis_banner.html %}
+      {{ content }}
     </div>
+
   </body>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-68106041-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </html>

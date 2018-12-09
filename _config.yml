@@ -1,8 +1,147 @@
+# Where things are
+source:       .
+destination:  ../_site
+plugins_dir:  _plugins
+layouts_dir:  _layouts
+data_dir:     _data
+includes_dir: _includes
+collections:
+  posts:
+    output:   true
+
+# Conversion
+markdown:    kramdown
 highlighter: rouge
-markdown: kramdown
-safe: true
-source:           .
-destination:      _gh_pages
-# source: <your pages repo>
-# destination: <the build dir>
-lsi: false
+lsi:         false
+excerpt_separator: "\n\n"
+incremental: false
+
+# author
+author:
+  name: 'Niklaus Giger'
+  url: https://github.com/ngiger
+
+# data
+hello:
+  en: Hello!
+  es: ¡hola!
+  fr: Bonjour!
+  de: Hallo!
+
+plugins: [jekyll-polyglot, jekyll-redirect-from]
+# Permalinks
+permalink: pretty
+  
+include: ['_pages']
+exclude: ['LICENSE.md', 'README.md', 'publi.sh', 'Gemfile.lock']
+# Setup
+title:            Elexis
+tagline:         
+  de: Allgemeine Informationen
+  fr: Renseignements généraux
+  it: Informazioni generali
+  en: General informations
+  
+description:
+  de: Elexis ist eine umfassende open source Software für die Arztpraxis, welche 2008 von Dr. Gerry Weirich entwickelt wurde und seither von der Medelexis AG, den Entwicklern und Anwendern laufend verbessert wurde.
+  fr: Elexis est un logicial libre pour un cabinet médical, developpé par le médecin généralist Dr. Gerry Weirich. La version française est utilisé dans un seul cabinet médical et attend de nouveaux clients prêt à tester.
+  en: "Elexis is an Eclipse RCP program for all aspects of a medical practice: electronic medical record (EMR), laboratory findings etc., as well as accounting, billing (swiss TARMED-System, other systems to be developped) and other daily work."
+  it: Elexis è un software open source completo per lo studio medico, sviluppato in gran parte dal Dr. Gerry Weirich. La versione italiana è in attesa dei tester alfa.....
+elexis_banner:
+  de: "Elexis: eine freie Software<br>von Ärzten für Ärzte"
+  fr: "Elexis: un logiciel libre<br>des médecins pour médecins"
+  en: "Elexis: a free software<br>by medical practitioners for medical practitioners"
+  it: "Elexis: un software libero<br>dai medici per i medici"
+  
+manual_old: 
+  de: "Handbuch für Elexis 1.4"
+  fr: "Manuel pour Elexis 1.4"
+manual: 
+  de: "Handbuch für Elexis >= 3.1"
+  fr: "Manuel premiers pas avec Elexis"
+manual_url: 
+  de: https://wiki.elexis.info/Deutsches_Handbuch_3.1
+  fr: https://wiki.elexis.info/Premiers_pas_avec_Elexis
+start_here:
+  de: Hier beginnen
+  fr: Démarrer ici
+  en: start here
+home:
+  de: Willkommen
+get_acquainted:
+  de: Elexis kennen lernen
+thanks:
+  de: Danke an..
+  fr: Merci..
+  en: Thanks..
+  it: Gracie..
+support:
+  de: Support
+use_elexis:
+  de: Elexis erfolgreich einsetzen
+developers:
+  de: Für Entwickler
+  fr: Pour les développeurs
+  it: Per gli sviluppatori
+  en: For developers
+sponsoring:
+  de: Weiterentwicklung
+  fr: développement futur
+  it: ulteriore sviluppo
+  en: further development
+  
+no_such_language:
+  fr: "*Caution: **Comme il n'exist pas encore une version 'officielle' d'Elexis pour la Suisse romande, nous prions les interessés de s'adresser au release manager et initiant de la version française  [Niklaus Giger](mailto:niklaus.giger@member.fsf.org).***"
+  it: "*Caution: **Poiché non esiste ancora una versione 'ufficiale' di Elexis per la Svizzera romanda, chiediamo agli interessati di contattare il release manager e promotore della versione francese et italiano [Niklaus Giger](mailto:niklaus.giger@member.fsf.org).***"
+  en: 
+
+# Unterstützung
+# Wiki-Dokumentation
+# Elexis-Forum
+# Tipps von Iatrix
+# www.elexis.ch
+# Handbuch v1.4 (deutsch)
+# Manuel v1.4 (français)
+# Mitmachen
+# Sponsor werden
+# Dokumentation
+# download
+# Bugs (github)
+# Bugs (Medelexis)
+# CI Jobs
+# Für Entwickler/
+# for developers
+# contributing code
+# build from scratch
+# Wiki
+# Roadmap
+# 
+url: https://elexis.info
+
+# Custom vars
+version: 3.6.x
+version_hint:
+  de: Aktuelle Version
+  fr: Version actuelle
+  en: Current version
+  it: Versione corrente
+
+github:
+  repo: https://github.com/elexis
+github_hint:
+  de: "Quellcode (github)"
+  en: "Source (github)"
+  fr: "Source (github)"
+  it: "Source (github)"
+search_hint:
+  en: Search elexis.info with Google
+  de: Suche in elexis.info mit Google
+  fr: Rechercher elexis.info avec Google
+  it: Cerca elexis.info con Google
+
+
+#Polyglot
+languages: ["de", "fr", "en", "it"]
+default_lang: "de"
+exclude_from_localization: ["javascript", "images", "css", "public"]
+data_dir: ./_data

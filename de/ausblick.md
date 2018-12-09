@@ -1,6 +1,8 @@
 ---
 title: Neuerungen in Elexis 3.4
-permalink: ausblick.html
+permalink: ausblick/
+layout: subpage
+order: 9
 ---
 
 Eine Elexis Version **3.4.0** wurde **Ende Dezember 2017** freigegen und hat folgende Verbesserungen gegenüber 3.1.0 enthalten

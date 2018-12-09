@@ -1,6 +1,9 @@
 ---
+layout: page
 title: Contributors
-permalink: de_contributers.html
+permalink: contributors/
+lang: en
+order: 8
 ---
 
 Here is a short list of (still) known contributors to the Elexis
@@ -118,5 +121,5 @@ Beside invididual Elexis would not have survived without businesses like
 Argomed, Medelexis, Medshare, Medevit, Mepha, Roche and other investing
 time and money!
 
-Last updated by Niklaus Giger, Oktober 2015
+Last updated by Niklaus Giger, December 2018
 

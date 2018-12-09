@@ -1,9 +1,10 @@
 ---
+layout: page
 title: Professionelle Unterstützung
-permalink: de_support.html
+permalink: support/
+lang: de
+order: 3
 ---
-
-[english version](en_support.html)
 
 Die [Medelexis AG](http://www.medelexis.ch) bietet Deutsch-Schweizer Arztpraxen
 Unterstützung bei der Einführung und dem Einsatz von Elexis.

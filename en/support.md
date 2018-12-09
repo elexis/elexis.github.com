@@ -1,6 +1,9 @@
 ---
 title: Professional support
-permalink: en_support.html
+permalink: support/
+lang: en
+layout: page
+order: 3
 ---
 
 [Deutsche Version](de_support.html)

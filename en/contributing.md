@@ -1,6 +1,10 @@
 ---
-title: Contributing
-permalink: en_contributing.html
+title: Contributing/For developers
+permalink: contributing/
+lang: en
+layout: page
+order: 9
+# // [comment]: # (|  | GUI-Tests | [http://testbed-elexis.dyndns.org:8080](http://testbed-elexis.dyndns.org:8080/job/elexis-uitest/) |)
 ---
 
 Elexis started as a community effort, and we welcome all contributors.
@@ -10,6 +14,23 @@ In June 2009 early users (medicial doctors) founded the Medelexis AG, to
 get professional support for their business critical application. Since
 then most of the development is sponsored/paid/organized by Medelexis,
 which runs also an internal bug tracking system (aka as Redmine).
+
+Important links {#links}
+----------------
+
+| **Continuos integration** | Travis | [https://www.travis-ci.org/elexis](https://www.travis-ci.org/elexis/) |
+|  | Artikelstamm | [https://srv.elexis.info/jenkins](https://srv.elexis.info/jenkins/view/Artikelstamm/) |
+| **Installation** | Downloads| [https://download.elexis.info/elexis](https://download.elexis.info/elexis)/ |
+| | From scratch | [guide](https://github.com/elexis/elexis-3-core/tree/master/ch.elexis.sdk) |
+| **Source code** | Elexis-Server | [https://github.com/elexis/elexis-server]( https://github.com/elexis/elexis-server) |
+|  | Core | [https://github.com/elexis/elexis-3-core](https://github.com/elexis/elexis-3-core) |
+|  | EPL-Plugins | [https://github.com/elexis/elexis-3-base](https://github.com/elexis/elexis-3-base) |
+|  | GPL-Plugins | [https://github.com/elexis/elexis-3-gpl](https://github.com/elexis/elexis-3-gpl) |
+| **Community** | Wiki | [http://wiki.elexis.info/](http://wiki.elexis.info/)|
+| | developers | [ mailing list](https://sourceforge.net/mailarchive/forum.php?forum_name=elexis-develop) |
+
+To report bugs, please file an issue on one the the above source repositories (if are able to locate the bug) else use [https://github.com/elexis/elexis/issues](https://github.com/elexis/elexis/issues) 
+
 
 Getting involved {#involved}
 ----------------
@@ -24,7 +45,7 @@ guidelines, which you find in the file
 `ch.elexis.developer.resources/doc/sw-guidelines.textile`.
 
 If you find any omission, typos, error or inaccurate statements in any
-of these documents please report them to the [Elexis developpers mailing
+of these documents please report them to the [Elexis developers mailing
 list](https://sourceforge.net/mailarchive/forum.php?forum_name=elexis-develop).
 
 The release manager also maintains a ChangeLog for each repository and
@@ -33,7 +54,7 @@ branch.But as always the `git log` command is the ultimate answer.
 Mailing Lists {#mailing_lists}
 -------------
 
-[Elexis developpers mailing
+[Elexis developers mailing
 list](https://sourceforge.net/mailarchive/forum.php?forum_name=elexis-develop).
 
 Bugs (aka Issues) {#bugs}
@@ -44,7 +65,7 @@ Medelexis AG runs an internal bug-tracking system
 improvements, where several hunderds bugs per year (since 2011) are
 tracked, classified and resolved.
 
-Users and developpers using the free Elexis, may post their problems
+Users and developers using the free Elexis, may post their problems
 github [issue tracker](https://github.com/elexis/elexis/issues) or
 directly in the core/base repository, where the problem is rooted.
 
@@ -122,7 +143,7 @@ everything you need to use it, extend it and patch it.
 
 Compiling Elexis from scratch can be a time consuming effort if you
 don’t follow the advise given here. If the procedures mentioned here
-don’t work for your setup please ask a question at [Elexis developpers
+don’t work for your setup please ask a question at [Elexis developers
 mailing
 list](https://sourceforge.net/mailarchive/forum.php?forum_name=elexis-develop)
 before spending hours tracking down bugs.

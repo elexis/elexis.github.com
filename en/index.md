@@ -1,6 +1,9 @@
 ---
-title: Elexis
-permalink: en_index.html
+title: Home
+lang: en
+permalink: /
+layout: page
+order: 1
 ---
 
 What is Elexis? {#what}
@@ -77,6 +80,6 @@ Credits & Notices {#notices}
 Elexis is distributed under the conditions of the [Eclipse Public
 License](epl-v10.html).
 
-For the list of contributers have a look at the (German) [Thank
-you](de_contributers.html) page.
+For the list of contributors have a look at the (German) [Thank
+you]({{site.baseurl}}/contributors) page.
 

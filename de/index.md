@@ -1,6 +1,9 @@
 ---
-title: Allgemeines zu Elexis
-permalink: index.html
+layout: page
+title: Home
+permalink: /
+lang: de
+order: 1
 ---
 
 **Elexis wurde am 30. Juni 2017 10 Jahre alt**
@@ -51,9 +54,7 @@ Arztpraxis](http://www.digitale-nachhaltigkeit.unibe.ch/unibe/portal/fak_wiso/a_
 von 2015 beschreibt die Vorzüge von Open Source Software gegenüber
 propritären Lösungen. Auf Seite 25 steht
 
-    Elexis ist also kein Open Source Projekt, welches sich noch in den Anfängen
-    befindet. Nach mehr als zehn Jahren Entwicklung ist es eine ausgereifte,
-    konkurrenzfähige Software.
+    Elexis ist also kein Open Source Projekt, welches sich noch in den Anfängen befindet. Nach mehr als zehn Jahren Entwicklung ist es eine ausgereifte, konkurrenzfähige Software.
 
 Das Erfolgsrezept von Elexis {#why}
 ----------------------------
@@ -62,7 +63,7 @@ Das Erfolgsrezept von Elexis {#why}
 -   Weiterentwickelt von Ärzten und Programmieren
 -   Ein Netzwerk von Anwendern, welche Kritik, Ideen, Geld und
     Dokumentation beigesteuert haben und Neueinsteiger unterstützen
--   Firmen, welche professionellen [Support](de_support.html) für
+-   Firmen, welche professionellen [Support](support.html) für
     Installation, Beratung, Wartung, praxis-spezifische Anpassung und
     Weiterentwicklungen anbieten
 -   Die [Medelexis AG](http://www.medelexis.ch), wo Ärzte versuchen,
@@ -176,5 +177,5 @@ Der Quellcode von Elexis wird unter den Bedingungen, welche in der
 
 Elexis wäre ohne den generösen Einsatz vieler Leute nie entstanden. Eine
 Liste der Entwickler, Sponsoren, Beta-Tester und Handbuch-Schreiber
-findet man im [Danke an](de_contributers.html).
+findet man im [Danke an]({{site.baseurl}}/contributors).
 

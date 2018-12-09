@@ -1,6 +1,9 @@
 ---
-title: Elexis
-permalink: fr_index.html
+layout: page
+title: Debut
+lang: fr
+permalink: /
+order: 1
 ---
 
 Elexis est un logicial libre pour un cabinet médical, developpé par le
@@ -8,19 +11,7 @@ médecin généralist Dr. Gerry Weirich.
 
 Elexis est utilisé dans plus de 100 cabinets médicaux en Suisse
 alémanique. Une manuel a été traduit en français par le docteur Bruno
-Büchel.
-
-Pour être utilisable à grande échelle dans la Suisse romande manquent:
-* la traduction d’une grande partie de plug-in
-* adaptation du schéma de programmation pour remplaçer beaucoup de
-codes fixes par des réferences dans la base de données
-* des médecins prêts à tester des versions préliminaire
-* le financement
-Le release manager d’Elexis [Niklaus
-Giger]("mailto:niklaus.giger@member.fsf.org) estime que ce travail
-demande plusieurs mois de travail. Il est très interessé qu’Elexis
-devienne un logicial vraiement Suisse et ne reste pas une spécialité
-Suisse alémanique.
+Büchel. Le travail de mise à jour de la version français est présenté sous **[développement futur]({{site.baseurl}}/sponsoring)**.
 
 Le logiciel (une application du type Eclipse RCP) est écrit en Java et
 fonctionne sans problème sous Linux, MacOSX ou Windows. Une intégration
@@ -28,6 +19,9 @@ avec Libre/OpenOffice existe.
 
 Sous [Elexis kennenlernen](https://wiki.elexis.info/Installation_Elexis_3.0_OpenSource) vous trouvez un guide
 (en allemand) pour installer une version démo d’Elexis.
+
+{{site.no_such_language[site.active_lang]}}
+
 
 Les composants d’Elexis {#what}
 -----------------------
@@ -62,5 +56,5 @@ License](epl-v10.html).
 Seule la participation génereuse de beaucoup de personne a permis à
 Elexis de devenir un programme. Une liste (incomplète) des développeurs,
 sponsors, traducteurs, etc (en Allemand) peut être consulter sous:
-[Danke an](de_contributers.html).
+[Merci à]({{site.baseurl}}/contributors).
 
