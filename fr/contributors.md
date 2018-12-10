@@ -6,8 +6,8 @@ lang: fr
 order: 8
 ---
 
-Voici une courte liste des contributeurs (encore) connus à l'Elexis
-projet. Si quelqu'un peut m'indiquer des contributions oubliées, veuillez m'envoyer
+Voici une courte liste des contributeurs (encore) connus au  projet Elexis.
+Si quelqu'un peut m'indiquer des contributions oubliées, veuillez m'envoyer
 une courte note à niklaus.giger@member.fsf.org. L'ordre est approximativement
 par ordre chronologique
 
@@ -33,8 +33,8 @@ Daniel Lutz **Daniel Lutz**
 Il est également un des premiers à avoir adopté Elexis. Il a mis en place le[Elexis
 Forum](http:/www.elexis-forum.ch) où l'utilisateur d'Elexis a trouvé un bel endroit
 pour poser des questions et s'entraider. Il est également président du conseil d'administration de la
-Verwaltungsrat of [Medelexis](http://www.medelexis.ch), une entreprise
-offrir un soutien commercial à Elexis.
+Verwaltungsrat of [Medelexis](http://www.medelexis.ch), une entreprise qui offre 
+un soutien commercial à Elexis.
 
 **Urs Berner**
 (alias bernerur) early adopter, parties du manuel allemand
@@ -70,7 +70,7 @@ noyau elexis
 
 **Julian Kappis** qui est capable de résoudre beaucoup de problèmes que les utilisateurs ont avec
 Elexis, leur disant comment réparer leur installation pour qu'elle fonctionne. Il était aussi
-vus à toutes les réunions de développeurs sponsorisant les bières et les repas proposés
+vu à toutes les réunions de développeurs sponsorisant les bières et les repas proposés
 par Medelexis.
 
 **Jörg Sigle** jsigle, codeur, correcteur de bug, noatext_jsl
@@ -82,7 +82,7 @@ intégration)
 
 **Codeur Lucia Amman**, beaucoup de petites corrections et quelques nouveaux plugins
 
-**Philip Wiget** Pharmed Solutions, a fourni un plugin pour l'envoi de
+**Philip Wiget** Pharmed Solutions, a fourni un plugin pour l'envoi d'
 ordonnances aux pharmacies
 
 **Daniel Ludin** a contribué à la Cellsymbiosistherapie®.
