@@ -1,0 +1,43 @@
+{% assign lang = site.active_lang %}
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+
+    <div class="sidebar-about">
+      <h1><a href="https://elexis.info">{{site.title}} </a></h1>
+       <p class="lead">{{ site.description[lang] }}</p>
+    </div>
+    
+    <nav class="sidebar-nav">
+
+      {% assign pages_list = site.pages | sort:"order" %}
+      {% assign written = "" | split: '' %}
+      {% for node in pages_list %}
+        {% if written contains node.title %}
+          {% continue %}
+        {% endif %}
+        {% if node.title != null %}
+          {% if node.layout == "page" %}
+            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{site.baseurl}}{{ node.url }}">{{ node.title }}</a>
+          {% endif %}
+          {% assign written = written | push: node.title %}
+        {% endif %}
+      {% endfor %}
+      <a class="sidebar-nav-item" href="{{ site.github.repo }}">{{site.github_hint[site.active_lang]}}</a>
+      <span class="sidebar-nav-item">{{site.version_hint[site.active_lang]}} {{ site.version }}</span>
+    </nav>
+    <div> <!-- Add a site search -->
+    <form method="get" action="http://www.google.com/search" target="_blank">
+      <input type="hidden" name="sitesearch" value="elexis.info" />
+      <input type="text" name="q" maxlength="255" placeholder="Search elexis.info with Google" />
+    </form>
+    </div>
+    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
+<p>
+  {% for tongue in site.languages %}
+<a {% if tongue == site.active_lang %}style="font-weight: bold;"{% endif %} href="{% if tongue == site.default_lang %} {{site.baseurl}}{{page.url}} {% else %} {{site.baseurl}}/{{ tongue }}{{page.url}} {% endif %}">{{ tongue }}</a> |
+  {% endfor %}
+</p>
+  </div>
+</div>
+
+

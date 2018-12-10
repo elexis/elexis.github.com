@@ -35,7 +35,7 @@ permalink: pretty
 include: ['_pages']
 exclude: ['LICENSE.md', 'README.md', 'publi.sh', 'Gemfile.lock']
 # Setup
-title:            Elexis
+title: Elexis
 tagline:         
   de: Allgemeine Informationen
   fr: Renseignements généraux
@@ -43,10 +43,11 @@ tagline:
   en: General informations
   
 description:
-  de: Elexis ist eine umfassende open source Software für die Arztpraxis, welche 2008 von Dr. Gerry Weirich entwickelt wurde und seither von der Medelexis AG, den Entwicklern und Anwendern laufend verbessert wurde.
-  fr: Elexis est un logicial libre pour un cabinet médical, developpé par le médecin généralist Dr. Gerry Weirich. La version française est utilisé dans un seul cabinet médical et attend de nouveaux clients prêt à tester.
+  de: "Elexis ist eine umfassende open source Software für die Arztpraxis, welche 2008 von Dr. Gerry Weirich entwickelt wurde und seither von der Medelexis AG, den Entwicklern und Anwendern laufend verbessert wurde."
+  fr: "Elexis est un logicial libre pour un cabinet médical, developpé par le médecin généralist Dr. Gerry Weirich. La version française est utilisé dans un seul cabinet médical et attend de nouveaux clients prêt à tester."
   en: "Elexis is an Eclipse RCP program for all aspects of a medical practice: electronic medical record (EMR), laboratory findings etc., as well as accounting, billing (swiss TARMED-System, other systems to be developped) and other daily work."
-  it: Elexis è un software open source completo per lo studio medico, sviluppato in gran parte dal Dr. Gerry Weirich. La versione italiana è in attesa di valutatori (tester alpha).
+  it: "Elexis è un software open source completo per lo studio medico, sviluppato in gran parte dal Dr. Gerry Weirich. La versione italiana è in attesa di valutatori (tester alpha)."
+
 elexis_banner:
   de: "Elexis: eine freie Software<br>von Ärzten für Ärzte"
   fr: "Elexis: un logiciel libre<br>des médecins pour médecins"
@@ -92,8 +93,7 @@ sponsoring:
   
 no_such_language:
   fr: "*Caution: **Comme il n'exist pas encore une version 'officielle' d'Elexis pour la Suisse romande, nous prions les interessés de s'adresser au release manager et initiant de la version française  [Niklaus Giger](mailto:niklaus.giger@member.fsf.org).***"
-  it: Attenzione: **Poiché non esiste ancora una versione 'ufficiale' di Elexis per la Svizzera italiana, chiediamo agli interessati di contattare il release manager e promotore della versione francese e italiana [Niklaus Giger](mailto:niklaus.giger@member.fsf.org).***"
-  en: 
+  it: "Attenzione: **Poiché non esiste ancora una versione 'ufficiale' di Elexis per la Svizzera italiana, chiediamo agli interessati di contattare il release manager e promotore della versione francese e italiana [Niklaus Giger](mailto:niklaus.giger@member.fsf.org).***"
 
 # Unterstützung
 # Wiki-Dokumentation

@@ -69,3 +69,8 @@ A differenza di altri programmi di studio medico, Elexis può soddisfare i segue
 * Collegamenti nel testo della consultazione con gli esami eseguiti, ad es. laboratorio, liste di controllo (diabete, controllo della gravidanza,..)
 * Stampa di una panoramica dei pazienti per le visite mediche
 * Lettura e importazione da/per altri software medici, a condizione che anch'essi siano dotati di tali interfacce.
+
+Versioni {#releases}
+----
+Vedere le note di rilascio in tedesco alla voce  [Versionen](/index.html#releases)
+

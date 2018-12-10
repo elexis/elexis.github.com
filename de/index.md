@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Home
-permalink: /
 lang: de
+permalink: /
 order: 1
 ---
 

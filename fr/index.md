@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Debut
+title: Home
 lang: fr
 permalink: /
 order: 1
@@ -45,6 +45,11 @@ Nouvelles {#news}
 
 **Elexis 3.6.0** a été publié en juillet 2018. Pour les détails
 consultez les [Release notes](https://wiki.elexis.info/Release-Notes-3.6.0)
+
+
+Nouvelles versions {#releases}
+----
+Consultez la liste des verions (en allemand) sours [Versionen](/index.html#releases)
 
 
 Mérites & license {#notices}
