@@ -46,7 +46,7 @@ description:
   de: Elexis ist eine umfassende open source Software für die Arztpraxis, welche 2008 von Dr. Gerry Weirich entwickelt wurde und seither von der Medelexis AG, den Entwicklern und Anwendern laufend verbessert wurde.
   fr: Elexis est un logicial libre pour un cabinet médical, developpé par le médecin généralist Dr. Gerry Weirich. La version française est utilisé dans un seul cabinet médical et attend de nouveaux clients prêt à tester.
   en: "Elexis is an Eclipse RCP program for all aspects of a medical practice: electronic medical record (EMR), laboratory findings etc., as well as accounting, billing (swiss TARMED-System, other systems to be developped) and other daily work."
-  it: Elexis è un software open source completo per lo studio medico, sviluppato in gran parte dal Dr. Gerry Weirich. La versione italiana è in attesa dei tester alfa.....
+  it: Elexis è un software open source completo per lo studio medico, sviluppato in gran parte dal Dr. Gerry Weirich. La versione italiana è in attesa di valutatori (tester alpha).
 elexis_banner:
   de: "Elexis: eine freie Software<br>von Ärzten für Ärzte"
   fr: "Elexis: un logiciel libre<br>des médecins pour médecins"
@@ -74,7 +74,7 @@ thanks:
   de: Danke an..
   fr: Merci..
   en: Thanks..
-  it: Gracie..
+  it: Grazie..
 support:
   de: Support
 use_elexis:
@@ -87,12 +87,12 @@ developers:
 sponsoring:
   de: Weiterentwicklung
   fr: développement futur
-  it: ulteriore sviluppo
+  it: ulteriori sviluppi
   en: further development
   
 no_such_language:
   fr: "*Caution: **Comme il n'exist pas encore une version 'officielle' d'Elexis pour la Suisse romande, nous prions les interessés de s'adresser au release manager et initiant de la version française  [Niklaus Giger](mailto:niklaus.giger@member.fsf.org).***"
-  it: "*Caution: **Poiché non esiste ancora una versione 'ufficiale' di Elexis per la Svizzera romanda, chiediamo agli interessati di contattare il release manager e promotore della versione francese et italiano [Niklaus Giger](mailto:niklaus.giger@member.fsf.org).***"
+  it: Attenzione: **Poiché non esiste ancora una versione 'ufficiale' di Elexis per la Svizzera italiana, chiediamo agli interessati di contattare il release manager e promotore della versione francese e italiana [Niklaus Giger](mailto:niklaus.giger@member.fsf.org).***"
   en: 
 
 # Unterstützung
@@ -124,7 +124,7 @@ version_hint:
   de: Aktuelle Version
   fr: Version actuelle
   en: Current version
-  it: Versione corrente
+  it: Versione attuale
 
 github:
   repo: https://github.com/elexis
@@ -132,12 +132,12 @@ github_hint:
   de: "Quellcode (github)"
   en: "Source (github)"
   fr: "Source (github)"
-  it: "Source (github)"
+  it: "Codice sorgente (github)"
 search_hint:
   en: Search elexis.info with Google
   de: Suche in elexis.info mit Google
   fr: Rechercher elexis.info avec Google
-  it: Cerca elexis.info con Google
+  it: Cerca elexis.info su Google
 
 
 #Polyglot
