@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <meta http-equiv="Content-Language" content="it">
+<link rel="alternate" hreflang="de" href=" http://localhost:4000/contributing/"/>
+<link rel="alternate" hreflang="fr" href="http://localhost:4000/fr/contributing/"/>
+<link rel="alternate" hreflang="en" href="http://localhost:4000/en/contributing/"/>
+<link rel="alternate" hreflang="it" href="http://localhost:4000/it/contributing/"/>
+
+  <title>
+    
+      Contributing/For developers &middot; Elexis
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/hyde.css">
+  <link rel="stylesheet" href="/public/css/custom.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  <!-- Icons -->
+  <link rel="shortcut icon" href="/images/favicon.ico">
+
+  <!-- RSS -->
+  <!-- no RSS available link rel="alternate" type="application/rss+xml" title="RSS" href="/it/atom.xml" -->
+
+</head>
+
+
+  <body theme-base-08>
+    
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+
+    <div class="sidebar-about">
+      <h1><a href="https://elexis.info">Elexis </a></h1>
+       <p class="lead">Elexis è un software open source completo per lo studio medico, sviluppato in gran parte dal Dr. Gerry Weirich. La versione italiana è in attesa di valutatori (tester alpha).</p>
+    </div>
+    
+    <nav class="sidebar-nav">
+
+      
+      
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+          
+            <a class="sidebar-nav-item" href="/it/">Home</a>
+          
+          
+        
+      
+        
+        
+          
+            <a class="sidebar-nav-item" href="/it/documentation/">Documentazione</a>
+          
+          
+        
+      
+        
+        
+          
+            <a class="sidebar-nav-item" href="/it/support/">Supporto professionale</a>
+          
+          
+        
+      
+        
+        
+      
+        
+        
+          
+            <a class="sidebar-nav-item" href="/it/sponsoring/">Ulteriore sviluppo</a>
+          
+          
+        
+      
+        
+        
+          
+            <a class="sidebar-nav-item" href="/it/contributors/">Contribuenti</a>
+          
+          
+        
+      
+        
+        
+          
+          
+        
+      
+        
+        
+          
+            <a class="sidebar-nav-item active" href="/it/contributing/">Contributing/For developers</a>
+          
+          
+        
+      
+        
+        
+          
+            <a class="sidebar-nav-item" href="/it/webmaster/">Errore nel sito web?</a>
+          
+          
+        
+      
+      <a class="sidebar-nav-item" href="https://github.com/elexis">Codice sorgente (github)</a>
+      <span class="sidebar-nav-item">Versione attuale 3.6.x</span>
+    </nav>
+    <div> <!-- Add a site search -->
+    <form method="get" action="http://www.google.com/search" target="_blank">
+      <input type="hidden" name="sitesearch" value="elexis.info" />
+      <input type="text" name="q" maxlength="255" placeholder="Search elexis.info with Google" />
+    </form>
+    </div>
+    <p>&copy; 2018. All rights reserved.</p>
+<p>
+  
+<a  href=" /contributing/ ">de</a> |
+  
+<a  href=" /fr/contributing/ ">fr</a> |
+  
+<a  href=" /en/contributing/ ">en</a> |
+  
+<a style="font-weight: bold;" href=" /it/contributing/ ">it</a> |
+  
+</p>
+  </div>
+</div>
+
+
+
+    <div class="content container">
+  
+<table>
+  <tr>
+    <td width="15%" align='middle' ><a href='https://github.com/elexis/' ><img alt='elexis' src='/images/splash.png'></a></td>
+    <td width="55%" align='middle' ><h2>Elexis: un software libero<br>dai medici per i medici</h2></td>
+    <td width="15%" align="middle" >
+        <a href='http://www.netzwoche.ch/news/2017-10-23/das-sind-die-sieger-der-dinacon-awards#main-content'>Gewinner</a>
+        <br>DINAcon<br>
+        <a href='https://dinacon.ch/dinacon-awards/'>Award 2017</a>
+    </td>
+    <td width="15%" >
+    <a href='https://dinacon.ch/dinacon-awards/'>
+        <img alt='dinacon 2017' src='/images/dinacon_2017_blue_small.jpg'></td>
+    </a>
+  </tr>
+</table>
+
+      <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <meta http-equiv="Content-Language" content="it">
+<link rel="alternate" hreflang="de" href=" http://localhost:4000/contributing/"/>
+<link rel="alternate" hreflang="fr" href="http://localhost:4000/fr/contributing/"/>
+<link rel="alternate" hreflang="en" href="http://localhost:4000/en/contributing/"/>
+<link rel="alternate" hreflang="it" href="http://localhost:4000/it/contributing/"/>
+
+  <title>
+    
+      Contributing/For developers &middot; Elexis
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/hyde.css">
+  <link rel="stylesheet" href="/public/css/custom.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  <!-- Icons -->
+  <link rel="shortcut icon" href="/images/favicon.ico">
+
+  <!-- RSS -->
+  <!-- no RSS available link rel="alternate" type="application/rss+xml" title="RSS" href="/it/atom.xml" -->
+
+</head>
+
+
+<div class="page">
+  <h3 class="page-title">Contributing/For developers</h3>
+  <p>Elexis started as a community effort, and we welcome all contributors.
+Here’s your chance to get involved and help your fellow developers.</p>
+
+<p>In June 2009 early users (medicial doctors) founded the Medelexis AG, to
+get professional support for their business critical application. Since
+then most of the development is sponsored/paid/organized by Medelexis,
+which runs also an internal bug tracking system (aka as Redmine).</p>
+
+<h2 id="links">Important links</h2>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Continuos integration</strong></td>
+      <td>Travis</td>
+      <td><a href="https://www.travis-ci.org/elexis/">https://www.travis-ci.org/elexis</a></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>Artikelstamm</td>
+      <td><a href="https://srv.elexis.info/jenkins/view/Artikelstamm/">https://srv.elexis.info/jenkins</a></td>
+    </tr>
+    <tr>
+      <td><strong>Installation</strong></td>
+      <td>Downloads</td>
+      <td><a href="https://download.elexis.info/elexis">https://download.elexis.info/elexis</a>/</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>From scratch</td>
+      <td><a href="https://github.com/elexis/elexis-3-core/tree/master/ch.elexis.sdk">guide</a></td>
+    </tr>
+    <tr>
+      <td><strong>Source code</strong></td>
+      <td>Elexis-Server</td>
+      <td><a href="https://github.com/elexis/elexis-server">https://github.com/elexis/elexis-server</a></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>Core</td>
+      <td><a href="https://github.com/elexis/elexis-3-core">https://github.com/elexis/elexis-3-core</a></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>EPL-Plugins</td>
+      <td><a href="https://github.com/elexis/elexis-3-base">https://github.com/elexis/elexis-3-base</a></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>GPL-Plugins</td>
+      <td><a href="https://github.com/elexis/elexis-3-gpl">https://github.com/elexis/elexis-3-gpl</a></td>
+    </tr>
+    <tr>
+      <td><strong>Community</strong></td>
+      <td>Wiki</td>
+      <td><a href="http://wiki.elexis.info/">http://wiki.elexis.info/</a></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>developers</td>
+      <td><a href="https://sourceforge.net/mailarchive/forum.php?forum_name=elexis-develop"> mailing list</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>To report bugs, please file an issue on one the the above source repositories (if are able to locate the bug) else use <a href="https://github.com/elexis/elexis/issues">https://github.com/elexis/elexis/issues</a></p>
+
+<h2 id="involved">Getting involved</h2>
+
+<p>Many of our discussions are done in the open, over
+<a href="http://sourceforge.net/mailarchive/forum.php?forum_name=elexis-develop">email</a>,
+and that would be the first place to look for answers, raise ideas, etc.
+For bug reports, issues and patches, <a href="#bugs">see below</a>.</p>
+
+<p>If you wish to contribute code, please get acquainted with our SW
+guidelines, which you find in the file
+<code class="highlighter-rouge">ch.elexis.developer.resources/doc/sw-guidelines.textile</code>.</p>
+
+<p>If you find any omission, typos, error or inaccurate statements in any
+of these documents please report them to the <a href="https://sourceforge.net/mailarchive/forum.php?forum_name=elexis-develop">Elexis developers mailing
+list</a>.</p>
+
+<p>The release manager also maintains a ChangeLog for each repository and
+branch.But as always the <code class="highlighter-rouge">git log</code> command is the ultimate answer.</p>
+
+<h2 id="mailing_lists">Mailing Lists</h2>
+
+<p><a href="https://sourceforge.net/mailarchive/forum.php?forum_name=elexis-develop">Elexis developers mailing
+list</a>.</p>
+
+<h2 id="bugs">Bugs (aka Issues)</h2>
+
+<p>Medelexis AG runs an internal bug-tracking system
+<a href="https://redmine.medelexis.ch">redmine</a> for Elexis bugs and
+improvements, where several hunderds bugs per year (since 2011) are
+tracked, classified and resolved.</p>
+
+<p>Users and developers using the free Elexis, may post their problems
+github <a href="https://github.com/elexis/elexis/issues">issue tracker</a> or
+directly in the core/base repository, where the problem is rooted.</p>
+
+<p>We really do try to keep bugs to a minimum, and anticipate everything
+you’ll ever want to do with Elexis. We’re also, not perfect. So you may
+have found a bug, or have an enhancement in mind, or better yet, a patch
+to contribute. Here’s what you can do.</p>
+
+<p>Whether it’s a bug, enhancement or patch, send an email using
+<a href="#mailing_lists">email</a></p>
+
+<h2 id="wiki">Community Wiki</h2>
+
+<p><a href="http://wiki.elexis.info">Our community Wiki</a>.</p>
+
+<h2 id="code">Contributing Code</h2>
+
+<p>Yes, please. The following steps are usually required</p>
+
+<ul>
+  <li>clone the concerned repository(ies), e.g.
+<a href="https://github.com/elexis/elexis-3-core">core</a> or
+<a href="https://github.com/elexis/elexis-3-base">base</a></li>
+  <li>create a feature branch, giving it a meaningful name (e.g. bug_430,
+add_cool_feature)</li>
+  <li>fix the problem</li>
+  <li>if possible a unit test for it (you might look at
+<a href="https://github.com/elexis/elexis-3-core/tree/master/ch.elexis.core.hl7.v2x.tests">HL7-Tests</a>)</li>
+  <li>create a pull request via the github interface “New pull request”</li>
+  <li>if you don’t get an answer in a week, insist on the elexis-developer
+list</li>
+  <li>listen to the comments and improve your patch till it can be
+incorporated</li>
+</ul>
+
+<h3 id="the-perfect-patch">The Perfect Patch</h3>
+
+<p>If you want to get your patch accepted quickly:</p>
+
+<ol>
+  <li>Provide a good summary of the bug/fix. We use that to decide which
+issue we can do quickly, and also copy and paste it into the
+changelog.</li>
+  <li>Provide short explanation of what failed, under what conditions,
+why, and what else could be affected by the change (when relevant).
+The helps us understand the problem and move on to the next step.</li>
+  <li>Provide a patch with relevant tests. First thing we have to do is
+replicate the problem, before applying the change, and then make
+sure the change fixes that problem. And we need to have those specs
+in there, they make sure we don’t accidentally break it again in the
+future.</li>
+  <li>Provide a patch with the fix/change itself. Keep it separate from
+the specs, so it’s easy to apply them individually.</li>
+</ol>
+
+<p>If you don’t know how to fix it, but can at least write a test for the
+correct behavior (which, obviously would fail), do just that. A spec is
+preferred to a fix.</p>
+
+<h3 id="working-on-a-new-feature">Working on a new feature?</h3>
+
+<p>If you want to work on a cool new feature, but not quite ready to submit
+a patch, there’s still a way you can get the Elexis community involved.
+We’re experimenting with using Git for that. You can use Git to maintain
+a fork of Elexis that can keep up with changes in the main branch (tip:
+use <code class="highlighter-rouge">git rebase</code>), while developing your own changes/features on it.</p>
+
+<p>You are free to license your new feature/plugin under any license you
+want, but</p>
+
+<h2 id="edge">Living on the edge</h2>
+
+<p>Did we mention Elexis is an open source project? In fact, when you
+install Elexis you get all the source code, documentation, test case and
+everything you need to use it, extend it and patch it.</p>
+
+<p>Compiling Elexis from scratch can be a time consuming effort if you
+don’t follow the advise given here. If the procedures mentioned here
+don’t work for your setup please ask a question at <a href="https://sourceforge.net/mailarchive/forum.php?forum_name=elexis-develop">Elexis developers
+mailing
+list</a>
+before spending hours tracking down bugs.</p>
+
+<p>Start with the Oomp based installer, as described under
+<a href="https://github.com/elexis/elexis-3-core/tree/master/ch.elexis.sdk">ch.elexis.sdk</a></p>
+
+<p>The central repositories are:</p>
+<ul>
+  <li><a href="https://github.com/elexis/elexis-3-core">core</a> Minimal core</li>
+  <li><a href="https://github.com/elexis/elexis-3-base">base</a> Swiss base and many useful feature</li>
+</ul>
+
+<h2 id="ci">Continuous Integration</h2>
+
+<p>Elexis uses the <a href="http://jenkins-ci.org/">Jenkins</a> continuous integration
+tool to perform builds, run tests and report back on problems when
+changes are made to the source code repository.</p>
+
+<p>The care and feeding of the <a href="https://srv.elexis.info/jenkins/view/3.0/">CI
+Jobs</a> is the responsibility
+of the committers.</p>
+
+<h2 id="testing">Tested and Documented</h2>
+
+<p>Two things we definitely encourage!</p>
+
+<h3 id="testing">Testing</h3>
+
+<p>Obviously we won’t turn down patches, but we’ll love you even more if
+you include a test case. One that will fail without the patch, and run
+successfully with it. If not for our love, then think of the benefit to
+you: once we add that test case, we won’t accidentally break that
+feature in the next release.</p>
+
+<p>We test using <a href="http://www.junit.org/">JUnit</a> for Unit Testing and
+<a href="http://eclipse.org/jubula/">Jubula</a> for GUI-Tests.</p>
+
+<h2 id="docs">Documentation</h2>
+
+<p>Yes, we do make typos, spelling errors and sometimes we write things
+that don’t make sense, so if you find a documentation bug, or want to
+help make the documentation even better, here’s the way to do it.</p>
+
+<p>For simple typos and quick fixes, just send a message to the mailing
+list or log an issue in JIRA.</p>
+
+<p>If you end up rewriting a significant piece of text, or add new
+documentation (you rock!), send a patch. Making documentation patches is
+fairly easy. All the documentation is generated from text files in the
+<code class="highlighter-rouge">doc/pages</code> directory, so all you need to do is check it out from
+Git/SVN, edit, and <code class="highlighter-rouge">svn diff</code> to create a patch.</p>
+
+<p>Our new web site <a href="http://elexis.github.com">elexis.github.com</a> is based
+on <a href="http://pages.github.com">GitHub pages</a> and lives in the repository
+<a href="https://github.com/elexis/elexis.github.com">elexis.github.com</a></p>
+
+<p>We use <a href="http://www.textism.com/tools/textile/">Textile</a> as the markup
+language, it takes all of a few minutes to learn, it’s intuitive to use,
+and produces clean HTML. You can learn it all in a few minutes from the
+<a href="http://redcloth.org/textile">Textile Reference Manual</a>. Also check out
+the <a href="http://hobix.com/textile/quick.html">Textile Quick Reference</a>.</p>
+
+<p>Syntax highlighting handled by <a href="https://github.com/jneen/rouge">Rouge</a>. Use the
+special <code class="highlighter-rouge">highlight</code> tag to separate code sample from the rest of the
+text and to tell Rouge which language to use. For example:</p>
+
+<figure class="highlight"><pre><code class="language-java" data-lang="java">    <span class="kd">public</span> <span class="nf">Hub</span><span class="o">(){</span>
+        <span class="cm">/* Just a sample */</span>
+    <span class="o">}</span>
+    </code></pre></figure>
+
+<p>Have a look at existing documentation to see writing conventions. We use the <a href="https://daringfireball.net/projects/markdown/syntax">Markdown syntax</a></p>
+
+<p>This documentation uses <a href="https://help.github.com/articles/using-jekyll-with-pages">Jekyll</a>.</p>
+
+
+</div>
+
+    </div>
+
+  </body>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-68106041-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</html>

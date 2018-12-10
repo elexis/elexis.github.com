@@ -1,6 +1,6 @@
 # Where things are
 source:       .
-destination:  _site
+destination:  docs
 plugins_dir:  _plugins
 layouts_dir:  _layouts
 data_dir:     _data
@@ -34,6 +34,8 @@ permalink: pretty
   
 include: ['_pages']
 exclude: ['LICENSE.md', 'README.md', 'publi.sh', 'Gemfile.lock']
+
+# JEKYLL_GITHUB_TOKEN:  5c46c390d4847f7e81e4d1a33b1fafb1e06e07e0
 # Setup
 title: Elexis
 tagline:         
@@ -128,6 +130,8 @@ version_hint:
 
 github:
   repo: https://github.com/elexis
+repository: elexis/elexis.github.com
+
 github_hint:
   de: "Quellcode (github)"
   en: "Source (github)"
