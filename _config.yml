@@ -1,6 +1,6 @@
 # Where things are
 source:       .
-destination:  ../_site
+destination:  _site
 plugins_dir:  _plugins
 layouts_dir:  _layouts
 data_dir:     _data
@@ -33,7 +33,7 @@ plugins: [jekyll-polyglot, jekyll-redirect-from]
 permalink: pretty
   
 include: ['_pages']
-exclude: ['LICENSE.md', 'README.md', 'publi.sh', 'Gemfile.lock']
+exclude: ['vendor', 'LICENSE.md', 'README.md', 'publi.sh', 'Gemfile.lock']
 # Setup
 title: Elexis
 tagline:         
