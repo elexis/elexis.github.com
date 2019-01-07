@@ -8,9 +8,8 @@ order: 1
 
 **Elexis ha compiuto 10 anni il 30 giugno 2017**
 
-**Elexis 3.6.0** è stato rilasciato in agosto 2018**. In questa versione sono stati corretti diversi bug e sono state implementate utili estensioni per gli utenti. I dettagli si trovano nelle note di pubblicazione.
+**Elexis 3.7.0** è stato rilasciato in diciembre 2018**. In questa versione sono stati corretti diversi bug e sono state implementate utili estensioni per gli utenti. I dettagli si trovano nelle note di pubblicazione.
 
-La prossima versione **3.7.0** è prevista per **dicembre 2018**.
 
 Introduzione {#introduction}
 ----------
