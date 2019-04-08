@@ -20,7 +20,7 @@ Wir kennen folgende Firmen, welche neue Feature entwicklen oder die Funktionalit
 von Elexis verbessern helfen:
 * [Medelexis AG](http://www.medelexis.ch)
 * [Medevit](http://www.medevit.at)
-* [MedShare GmbH](http://www.medshare.ch)
+* [PraxisIT GmbH](https://www.praxisit.net/)
 * [Hilotec](http://www.hilotec.com)
 
 Falls Sie Ihre Firma hier aufgeführt sehen möchten und belegen können,

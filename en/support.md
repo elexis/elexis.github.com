@@ -18,7 +18,7 @@ We know of the following companies offering help in developing new
 plug-ins and/or improving existing features of Elexis:
 * [Medelexis AG](http://www.medelexis.ch)
 * [Medevit](http://www.medevit.at)
-* [MedShare GmbH](http://www.medshare.ch)
+* [PraxisIT GmbH](https://www.praxisit.net/)
 * [Hilotec](http://www.hilotec.com)
 
 Besides Medelexis there are several other swiss german companies
