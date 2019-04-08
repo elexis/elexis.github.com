@@ -35,3 +35,4 @@ jekyll.service Datei nach /etc/systemd/system/jekyll.service kopiert
     systemctl start jekyll
     systemctl status jekyll
 
+As jekyll-polyglot is not supported by github, we always see build failures in the github commit history which can be safely ignored, if the changes show up under elexis.info.
