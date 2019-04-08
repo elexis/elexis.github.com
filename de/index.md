@@ -8,7 +8,7 @@ order: 1
 
 **Elexis wurde am 30. Juni 2017 10 Jahre alt**
 
-Am **24. Dezember 2019** wurde **Elexis 3.7.0** freigegeben. Wie üblich wurden diverse Fehler behoben und nützliche Erweiterungen für die Anwender umgesetzt. Details finden Sie in den [Release notes](https://wiki.elexis.info/Release-Notes-3.7.0)
+Am **24. Dezember 2018** wurde **Elexis 3.7.0** freigegeben. Wie üblich wurden diverse Fehler behoben und nützliche Erweiterungen für die Anwender umgesetzt. Details finden Sie in den [Release notes](https://wiki.elexis.info/Release-Notes-3.7.0)
 
 Die nächste Version sollte in der **ersten Hälfte 2019** kommengit .
 
