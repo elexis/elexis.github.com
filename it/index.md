@@ -18,7 +18,7 @@ Elexis è un software open source completo per lo studio medico, sviluppato in g
 
 Elexis è sviluppato come software open source, cioè il software stesso è libero, il codice sorgente è pubblico e libero. Ciò permette personalizzazioni da parte di ogni utente (ciò viene solitamente fatto da un programmatore). Elexis è quindi un prodotto in costante crescita e non è mai terminato.
 
-Attualmente mancano ancora alcuni aspetti, ma già da 3-4 anni circa 100 medici hanno lavorato con esso. Maggiore è la cerchia di utenti disposti a sostenere il progetto, maggiore sarà la completezza del prodottto.
+Attualmente mancano ancora alcuni aspetti, ma già da 3-4 anni circa 260 medici hanno lavorato con esso. Maggiore è la cerchia di utenti disposti a sostenere il progetto, maggiore sarà la completezza del prodottto.
 
 Il progetto è mantenuto in vita attraverso il lavoro volontario. Per contro viene remunerato il lavoro per la consulenza, l'installazione, il supporto e lo sviluppo di ulteriori funzionalità.
 

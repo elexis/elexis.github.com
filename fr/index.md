@@ -9,7 +9,7 @@ order: 1
 Elexis est un logiciel libre pour un cabinet médical, developpé par le
 médecin généraliste Dr. Gerry Weirich.
 
-Elexis est utilisé dans plus de 100 cabinets médicaux en Suisse
+Elexis est utilisé dans plus de 260 cabinets médicaux en Suisse
 alémanique. Un manuel a été traduit en français par le docteur Bruno
 Büchel. Le travail de mise à jour de la version français est présenté sous **[développement futur]({{site.baseurl}}/sponsoring)**.
 

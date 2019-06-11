@@ -25,7 +25,7 @@ können, meist wohl als Auftrag an einen Programmierer. Damit ist Elexis
 auch nie definitiv fertig gestellt.
 
 Aktuell fehlen noch einige von uns gewünschten Features und Finessen.
-Aber seit 3-4 Jahren arbeiten rund 100 Ärzte damit; nicht alle sind uns
+Aber seit 3-4 Jahren arbeiten rund 260 Ärzte damit; nicht alle sind uns
 bekannt. Je grösser der Anwenderkreis mit der Bereitschaft das Projekt
 mitzutragen, desto raffinierter, ausgeklügelter wird das System.
 
