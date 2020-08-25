@@ -6,6 +6,8 @@ layout: page
 order: 99
 ---
 
+This branch gh-pages is obsolete see the ../readme.md
+
 Fehler/Anregung können Sie an den Betreuer dieser Webseite [Niklaus Giger](mailto:niklaus.giger@member.fsf.org) schicken.
 
 
