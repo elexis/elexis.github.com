@@ -1,3 +1,6 @@
-_site
-_gh_pages
-
+__pycache__
+secrets.py
+runs
+.ipynb_*
+*.csv
+.direnv
