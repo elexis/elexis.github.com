@@ -6,6 +6,12 @@ permalink: /
 order: 1
 ---
 
+**Elexis a eu 15 ans le 30 juin 2022**.
+
+En **juin 2022**, **Elexis 3.9.0** est sorti. Comme d'habitude, divers bugs ont été corrigés et des améliorations utiles pour les utilisateurs ont été mises en œuvre. Vous trouverez des détails dans les [Release notes](https://wiki.elexis.info/Release-Notes-3.9.0).
+
+La prochaine version devrait arriver dans le **quatrième trimestre 2022**.
+
 Elexis est un logiciel libre pour un cabinet médical, developpé par le
 médecin généraliste Dr. Gerry Weirich.
 
