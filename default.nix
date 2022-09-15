@@ -24,6 +24,6 @@ in pkgs.stdenv.mkDerivation {
   buildInputs = [env pkgs.ruby];
 
       shellHook = ''
-      exec ${env}/bin/jekyll serve --watch --port 4001
+      exec ${env}/bin/jekyll serve --watch --port 4002
     '';
 }

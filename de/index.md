@@ -8,15 +8,21 @@ order: 1
 
 **Elexis wurde am 30. Juni 2022 15 Jahre alt**
 
-Im **Juni 2022** wurde **Elexis 3.9.0** freigegeben. Wie üblich wurden diverse Fehler behoben und nützliche Erweiterungen für die Anwender umgesetzt. Details finden Sie in den [Release notes](https://wiki.elexis.info/Release-Notes-3.9.0)
+Im **Juni 2022** wurde **Elexis 3.9.0** freigegeben. Wie üblich wurden diverse Fehler behoben und nützliche Erweiterungen für die Anwender umgesetzt. Details finden Sie in [Neue Features im Überblick](https://www.youtube.com/watch?v=h4s_Z-E6Kds)
+und in den [Release notes](https://wiki.elexis.info/Release-Notes-3.9.0).
 
-Die nächste Version sollte in der **vierten Quartal 2022** kommen.
+Die nächste Version sollte im **vierten Quartal 2022** kommen.
 
 Einführung {#introduction}
 ----------
 
 Elexis ist eine umfassende open source Software für die Arztpraxis,
 welche zum grossen Teil von Dr. Gerry Weirich entwickelt wurde.
+
+Die folgenden kurzen Videos (je weniger als zwei Minuten lang) geben eine gute Übersicht, was Elexis alles kann und wie leicht man sich einarbeiten kann.
+
+* [Einsteigen: Patienten, Fälle und Konsultationen](https://www.youtube.com/watch?v=HE_-f-62Bj4)
+* [Einsteigen: Erstellen von Rezepten, AUFs und Briefen](https://www.youtube.com/watch?v=90FZXkvNVzg)
 
 Elexis wird als Open-Source-Software entwickelt, dh die Software selbst
 ist frei, der Quellcode veröffentlicht und kostenlos. Dies erlaubt vor
@@ -56,6 +62,10 @@ propritären Lösungen. Auf Seite 25 steht
 
     Elexis ist also kein Open Source Projekt, welches sich noch in den Anfängen befindet. Nach mehr als zehn Jahren Entwicklung ist es eine ausgereifte, konkurrenzfähige Software.
 
+    Medelexis auf youtube https://www.youtube.com/channel/UC-GYXuEwHClk9A9etTmOtqw
+
+2017 Gewann Elexis den [Dinacon Business Awards](https://awards.dinacon.ch/kontakt/vergangene-awards/gewinner-2017) als Open Source Arztpraxis-Lösung.
+
 Das Erfolgsrezept von Elexis {#why}
 ----------------------------
 
@@ -69,6 +79,7 @@ Das Erfolgsrezept von Elexis {#why}
 -   Die [Medelexis AG](http://www.medelexis.ch), wo Ärzte versuchen,
     ihre Branchensoftware nach ihren Bedürfnissen zu warten und weiter
     zu entwickeln.
+-   Rückmeldungen von Anwendern werden ernst genommen. Siehe Video über das [Virtuelle Usertreffen 2020](https://www.youtube.com/watch?v=ICX6P7L0Y_0) (1h48m)
 
 Das Result wurde von [Dr.
 Ambauen](https://sourceforge.net/users/ambadso) wie folgt
@@ -116,9 +127,11 @@ Alles begann mit der Alpha-Version vom [7. April
 2007](http://sourceforge.net/p/elexis/news/2006/04/alpha-version-freigegeben/).
 
 -   Elexis 3.9.0 wurde im Juni 2022 freigegeben. Details siehe
-    [Release notes](https://wiki.elexis.info/Release-Notes-3.9.0)
+    [Release notes](https://wiki.elexis.info/Release-Notes-3.9.0)<br>
+    [Neue Features im Überblick](https://www.youtube.com/watch?v=h4s_Z-E6Kds)
 -   Elexis 3.8.0 wurde im Juni 2021 freigegeben. Details siehe
-    [Release notes](https://wiki.elexis.info/Release-Notes-3.8.0)
+    [Release notes](https://wiki.elexis.info/Release-Notes-3.8.0)<br>
+    [Neue Features im Überblick](https://www.youtube.com/watch?v=h4s_Z-E6Kds)
 -   Elexis 3.7.0 wurde am 24. Dezember 2018 freigegeben. Details siehe
     [Release notes](https://wiki.elexis.info/Release-Notes-3.7.0)
 -   Elexis 3.6.0 wurde im August 2018 freigegeben. Details siehe
